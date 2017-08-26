@@ -1,13 +1,5 @@
 [
     {
-        "merged": "D:\\Android\\school\\GroendomChat\\GroendomC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
-        "source": "D:\\Android\\school\\GroendomChat\\GroendomC\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "D:\\Android\\school\\GroendomChat\\GroendomC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
-        "source": "D:\\Android\\school\\GroendomChat\\GroendomC\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
         "source": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },

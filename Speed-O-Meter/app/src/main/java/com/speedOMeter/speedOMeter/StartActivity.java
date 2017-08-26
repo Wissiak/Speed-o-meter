@@ -1,13 +1,15 @@
 package com.speedOMeter.speedOMeter;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+
+import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 public class StartActivity extends AppCompatActivity {
 
@@ -22,10 +24,15 @@ public class StartActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                changeView();
             }
         });
+    }
+
+    private void changeView() {
+        Intent intent = new Intent(this, SpeedTrackingActivity.class);
+        intent.putExtra(EXTRA_MESSAGE, "Some intent message");
+        startActivity(intent);
     }
 
     @Override

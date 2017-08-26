@@ -2,157 +2,157 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\Patrick Wissiak\.android\build-cache\41834ba1ff36929f8279e3e9722176bfa9916a8a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="D:\Android\school\GroendomChat\GroendomC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d9d69b4aa75ce4db268be9c34df2d941af28f19c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="D:\Android_SDK\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="D:\Android\school\GroendomChat\GroendomC\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_aaec2de31f9f41bccc7aba871e51c0828e515d8a\classes.dex" />
+        <dex dex="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_aaec2de31f9f41bccc7aba871e51c0828e515d8a.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="C:\Users\Patrick Wissiak\.android\build-cache\2addb49a6f8c4b09037d6cd475f404b140b2278b\output\jars\classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="D:\Android\school\GroendomChat\GroendomC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_16864f2567ef70a0f48d51fa49c936c4a59940aa\classes.dex" />
+        <dex dex="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\pre-dexed\debug\classes_16864f2567ef70a0f48d51fa49c936c4a59940aa.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Patrick Wissiak\.android\build-cache\aa0e91f2ebacd152e3a2dcaaa827e839f4037ec4\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Patrick Wissiak\.android\build-cache\41834ba1ff36929f8279e3e9722176bfa9916a8a\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="b81d40d208a3308c8e81b2cccd3054238a13d140">
-        <dex dex="D:\Android\school\GroendomChat\GroendomC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a720cfb2a1345dbc35b48d34b8f9aa0f40f1dd1d\classes.dex" />
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\pre-dexed\debug\classes_d9d69b4aa75ce4db268be9c34df2d941af28f19c.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Patrick Wissiak\.android\build-cache\a1efde2e80d954980283fbd9e40fd01587945d71\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="D:\Android\school\GroendomChat\GroendomC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_be3ee87fe57546a2f5205e9a135c04c41fe48da0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Patrick Wissiak\.android\build-cache\12d7ec7b79081cce0c89d8b54a6d264579ed1b6f\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="D:\Android\school\GroendomChat\GroendomC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e3122d92e41c41199d124b7ab02aed7a8048665a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Android\school\GroendomChat\GroendomC\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="40484d21d33ecccf35b2c79e95bef2aeb2abb770">
-        <dex dex="D:\Android\school\GroendomChat\GroendomC\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_474f6e4f1d9c66bee1af503b1c884f88fbb32539\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="D:\Android_SDK\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-beta3\constraint-layout-solver-1.0.0-beta3.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="22c1e9d26251df254de7cc9dee01f5f134b10eba">
-        <dex dex="D:\Android\school\GroendomChat\GroendomC\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-beta3_22b93612ce31aa68e146183be3ab34033e7af17d\classes.dex" />
+        <dex dex="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.0-beta3_22b93612ce31aa68e146183be3ab34033e7af17d.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Patrick Wissiak\.android\build-cache\4cc2023c4c3e277d1b9d31e8783c064636cbed37\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Patrick Wissiak\.android\build-cache\a1efde2e80d954980283fbd9e40fd01587945d71\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="D:\Android\school\GroendomChat\GroendomC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_79b37ac9504be709a0f80ff28be7663280a31d78\classes.dex" />
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\pre-dexed\debug\classes_be3ee87fe57546a2f5205e9a135c04c41fe48da0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Patrick Wissiak\.android\build-cache\12d7ec7b79081cce0c89d8b54a6d264579ed1b6f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\pre-dexed\debug\classes_e3122d92e41c41199d124b7ab02aed7a8048665a.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Android\school\GroendomChat\GroendomC\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="D:\Android\school\GroendomChat\GroendomC\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_5881c3dbfe10f94808edd5c6eb3608a4d3b9968d\classes.dex" />
+        <dex dex="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_110b7556234ac393e40b60fbdd820aeff8018301\classes.dex" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="C:\Users\Patrick Wissiak\.android\build-cache\aa0e91f2ebacd152e3a2dcaaa827e839f4037ec4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b81d40d208a3308c8e81b2cccd3054238a13d140">
+        <dex dex="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\pre-dexed\debug\classes_a720cfb2a1345dbc35b48d34b8f9aa0f40f1dd1d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Patrick Wissiak\.android\build-cache\4cc2023c4c3e277d1b9d31e8783c064636cbed37\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\pre-dexed\debug\classes_79b37ac9504be709a0f80ff28be7663280a31d78.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Patrick Wissiak\.android\build-cache\4ad226db96dedc4ce8b3e049c0387ee34dce9678\output\jars\classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="D:\Android\school\GroendomChat\GroendomC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e89200bd6f09f7ee43db74a5b3ce0db6777b6712\classes.dex" />
+        <dex dex="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\pre-dexed\debug\classes_e89200bd6f09f7ee43db74a5b3ce0db6777b6712.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Patrick Wissiak\.android\build-cache\ddf578c6814bd8dd70212afc7bb0d2264992f1f0\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="D:\Android\school\GroendomChat\GroendomC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2b777e139ca41e2d96dbc5b7ae00cc919792eda0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Patrick Wissiak\.android\build-cache\b9e1c7e1d821d87a1d9bb17bb0ea187b2ed45c04\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\Android\school\GroendomChat\GroendomC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9ab8e69527ce721cd5f1ccdcd2cd76746ee270f4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Patrick Wissiak\.android\build-cache\0c7dedbe65dfc6c3c2e08e539b932f6e095a6f33\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="D:\Android\school\GroendomChat\GroendomC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_92e04e9d67061d6d7c0d8abdd0ed8f296a971ef4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Patrick Wissiak\.android\build-cache\1528358484be5af18c3cd5ee04e4dca24fa5061a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="D:\Android\school\GroendomChat\GroendomC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1ecb1259ec5e6fee90a17b53842efe5d18c57cd5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="C:\Users\Patrick Wissiak\.android\build-cache\dfa31641389094d25c35087eb57f4f7b114587d1\output\jars\classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="D:\Android\school\GroendomChat\GroendomC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_013221a43d108cdf57dae675b3f409733b279759\classes.dex" />
+        <dex dex="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\pre-dexed\debug\classes_013221a43d108cdf57dae675b3f409733b279759.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="C:\Users\Patrick Wissiak\.android\build-cache\ddf578c6814bd8dd70212afc7bb0d2264992f1f0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\pre-dexed\debug\classes_2b777e139ca41e2d96dbc5b7ae00cc919792eda0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Patrick Wissiak\.android\build-cache\b9e1c7e1d821d87a1d9bb17bb0ea187b2ed45c04\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\pre-dexed\debug\classes_9ab8e69527ce721cd5f1ccdcd2cd76746ee270f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Patrick Wissiak\.android\build-cache\1528358484be5af18c3cd5ee04e4dca24fa5061a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\pre-dexed\debug\classes_1ecb1259ec5e6fee90a17b53842efe5d18c57cd5.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Patrick Wissiak\.android\build-cache\f37fe875b00c03873a8e1cc9ed9d14ef6d887693\output\jars\classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="D:\Android\school\GroendomChat\GroendomC\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9ec59e8ff82231457602b3c8eb13f09e69e17201\classes.dex" />
+        <dex dex="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\pre-dexed\debug\classes_9ec59e8ff82231457602b3c8eb13f09e69e17201.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="12113f4748db093a01275c40182c9b03366b1074">
+        <dex dex="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_2f7645d81b4fbdb8350e7b4c5b8f92f21763348e\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Patrick Wissiak\.android\build-cache\0c7dedbe65dfc6c3c2e08e539b932f6e095a6f33\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\pre-dexed\debug\classes_92e04e9d67061d6d7c0d8abdd0ed8f296a971ef4.jar" />
     </item>
 
 </items>

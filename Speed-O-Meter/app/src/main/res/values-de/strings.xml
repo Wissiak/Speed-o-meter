@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Speed o\'meter</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="start">Starten</string>
+    <string name="stop_tracking">Stoppen</string>
+    <string name="average_speed">Durchschnitt</string>
+    <string name="current_speed">Geschwindigkeit</string>
+    <string name="max_speed">Maximale Geschwindigkeit</string>
+</resources>
