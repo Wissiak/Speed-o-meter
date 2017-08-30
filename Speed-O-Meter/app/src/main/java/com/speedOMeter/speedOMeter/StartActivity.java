@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -17,22 +16,14 @@ public class StartActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.start_activity);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab_start);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                changeView();
+                changeView(SpeedTrackingActivity.class);
             }
         });
-    }
-
-    private void changeView() {
-        Intent intent = new Intent(this, SpeedTrackingActivity.class);
-        intent.putExtra(EXTRA_MESSAGE, "Some intent message");
-        startActivity(intent);
     }
 
     @Override
@@ -51,9 +42,15 @@ public class StartActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            this.changeView(SettingsActivity.class);
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void changeView(Class<?> newActivity) {
+        Intent intent = new Intent(this, newActivity);
+        intent.putExtra(EXTRA_MESSAGE, "Some intent message");
+        startActivity(intent);
     }
 }

@@ -7,150 +7,32 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 104,
-                    "endOffset": 155
+                    "endLine": 5,
+                    "endColumn": 19,
+                    "endOffset": 171
                 },
                 "from": {
-                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 104,
-                        "endOffset": 155
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 160,
-                    "endColumn": 107,
-                    "endOffset": 263
-                },
-                "from": {
-                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 160,
-                        "endColumn": 107,
-                        "endOffset": 263
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 268,
-                    "endColumn": 122,
-                    "endOffset": 386
-                },
-                "from": {
-                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 268,
-                        "endColumn": 122,
-                        "endOffset": 386
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 391,
-                    "endColumn": 97,
-                    "endOffset": 484
-                },
-                "from": {
-                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 391,
-                        "endColumn": 97,
-                        "endOffset": 484
-                    }
+                    "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 489,
-                    "endColumn": 111,
-                    "endOffset": 596
+                    "startOffset": 176,
+                    "endLine": 9,
+                    "endColumn": 19,
+                    "endOffset": 287
                 },
                 "from": {
-                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
+                    "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 489,
-                        "endColumn": 111,
-                        "endOffset": 596
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 601,
-                    "endColumn": 85,
-                    "endOffset": 682
-                },
-                "from": {
-                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 601,
-                        "endColumn": 85,
-                        "endOffset": 682
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 687,
-                    "endColumn": 104,
-                    "endOffset": 787
-                },
-                "from": {
-                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 687,
-                        "endColumn": 104,
-                        "endOffset": 787
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 792,
-                    "endColumn": 114,
-                    "endOffset": 902
-                },
-                "from": {
-                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 792,
-                        "endColumn": 114,
-                        "endOffset": 902
+                        "startOffset": 737,
+                        "endLine": 21,
+                        "endColumn": 19,
+                        "endOffset": 851
                     }
                 }
             },
@@ -158,342 +40,372 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 907,
-                    "endColumn": 76,
-                    "endOffset": 979
+                    "startOffset": 292,
+                    "endColumn": 104,
+                    "endOffset": 392
                 },
                 "from": {
-                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 907,
-                        "endColumn": 76,
-                        "endOffset": 979
-                    }
+                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 984,
-                    "endColumn": 75,
-                    "endOffset": 1055
+                    "startOffset": 397,
+                    "endColumn": 107,
+                    "endOffset": 500
                 },
                 "from": {
-                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 984,
-                        "endColumn": 75,
-                        "endOffset": 1055
-                    }
+                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1060,
-                    "endColumn": 81,
-                    "endOffset": 1137
+                    "startOffset": 505,
+                    "endColumn": 122,
+                    "endOffset": 623
                 },
                 "from": {
-                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1060,
-                        "endColumn": 81,
-                        "endOffset": 1137
-                    }
+                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1142,
-                    "endColumn": 110,
-                    "endOffset": 1248
+                    "startOffset": 628,
+                    "endColumn": 97,
+                    "endOffset": 721
                 },
                 "from": {
-                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1142,
-                        "endColumn": 110,
-                        "endOffset": 1248
-                    }
+                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1253,
-                    "endColumn": 102,
-                    "endOffset": 1351
+                    "startOffset": 726,
+                    "endColumn": 111,
+                    "endOffset": 833
                 },
                 "from": {
-                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1253,
-                        "endColumn": 102,
-                        "endOffset": 1351
-                    }
+                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1356,
-                    "endColumn": 98,
-                    "endOffset": 1450
+                    "startOffset": 838,
+                    "endColumn": 85,
+                    "endOffset": 919
                 },
                 "from": {
-                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1356,
-                        "endColumn": 98,
-                        "endOffset": 1450
-                    }
+                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1455,
-                    "endColumn": 110,
-                    "endOffset": 1561
+                    "startOffset": 924,
+                    "endColumn": 104,
+                    "endOffset": 1024
                 },
                 "from": {
-                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1455,
-                        "endColumn": 110,
-                        "endOffset": 1561
-                    }
+                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1566,
-                    "endColumn": 101,
-                    "endOffset": 1663
+                    "startOffset": 1029,
+                    "endColumn": 114,
+                    "endOffset": 1139
                 },
                 "from": {
-                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1566,
-                        "endColumn": 101,
-                        "endOffset": 1663
-                    }
+                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1668,
-                    "endColumn": 106,
-                    "endOffset": 1770
+                    "startOffset": 1144,
+                    "endColumn": 76,
+                    "endOffset": 1216
                 },
                 "from": {
-                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1668,
-                        "endColumn": 106,
-                        "endOffset": 1770
-                    }
+                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1775,
-                    "endColumn": 121,
-                    "endOffset": 1892
+                    "startOffset": 1221,
+                    "endColumn": 75,
+                    "endOffset": 1292
                 },
                 "from": {
-                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1775,
-                        "endColumn": 121,
-                        "endOffset": 1892
-                    }
+                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1897,
-                    "endColumn": 101,
-                    "endOffset": 1994
+                    "startOffset": 1297,
+                    "endColumn": 81,
+                    "endOffset": 1374
                 },
                 "from": {
-                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1897,
-                        "endColumn": 101,
-                        "endOffset": 1994
-                    }
+                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 1999,
-                    "endColumn": 57,
-                    "endOffset": 2052
+                    "startOffset": 1379,
+                    "endColumn": 110,
+                    "endOffset": 1485
                 },
                 "from": {
-                    "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 110,
-                        "endColumn": 57,
-                        "endOffset": 163
-                    }
+                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 2057,
-                    "endColumn": 56,
-                    "endOffset": 2109
+                    "startOffset": 1490,
+                    "endColumn": 102,
+                    "endOffset": 1588
                 },
                 "from": {
-                    "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 212,
-                        "endColumn": 56,
-                        "endOffset": 264
-                    }
+                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 2114,
-                    "endColumn": 51,
-                    "endOffset": 2161
+                    "startOffset": 1593,
+                    "endColumn": 98,
+                    "endOffset": 1687
                 },
                 "from": {
-                    "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 57,
-                        "endColumn": 51,
-                        "endOffset": 104
-                    }
+                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 2166,
-                    "endColumn": 48,
-                    "endOffset": 2210
+                    "startOffset": 1692,
+                    "endColumn": 110,
+                    "endOffset": 1798
                 },
                 "from": {
-                    "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 270,
-                        "endColumn": 48,
-                        "endOffset": 314
-                    }
+                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 2215,
-                    "endColumn": 81,
-                    "endOffset": 2292
+                    "startOffset": 1803,
+                    "endColumn": 101,
+                    "endOffset": 1900
                 },
                 "from": {
-                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 1999,
-                        "endColumn": 81,
-                        "endOffset": 2076
-                    }
+                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 2297,
-                    "endColumn": 41,
-                    "endOffset": 2334
+                    "startOffset": 1905,
+                    "endColumn": 106,
+                    "endOffset": 2007
                 },
                 "from": {
-                    "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 169,
-                        "endColumn": 41,
-                        "endOffset": 206
-                    }
+                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 2339,
-                    "endColumn": 100,
-                    "endOffset": 2435
+                    "startOffset": 2012,
+                    "endColumn": 121,
+                    "endOffset": 2129
                 },
                 "from": {
-                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 2081,
-                        "endColumn": 100,
-                        "endOffset": 2177
-                    }
+                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2134,
+                    "endColumn": 101,
+                    "endOffset": 2231
+                },
+                "from": {
+                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2236,
+                    "endColumn": 51,
+                    "endOffset": 2283
+                },
+                "from": {
+                    "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2288,
+                    "endColumn": 54,
+                    "endOffset": 2338
+                },
+                "from": {
+                    "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2343,
+                    "endColumn": 57,
+                    "endOffset": 2396
+                },
+                "from": {
+                    "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2401,
+                    "endColumn": 62,
+                    "endOffset": 2459
+                },
+                "from": {
+                    "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 2464,
+                    "endColumn": 64,
+                    "endOffset": 2524
+                },
+                "from": {
+                    "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2529,
+                    "endColumn": 81,
+                    "endOffset": 2606
+                },
+                "from": {
+                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2611,
+                    "endColumn": 48,
+                    "endOffset": 2655
+                },
+                "from": {
+                    "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2660,
+                    "endColumn": 55,
+                    "endOffset": 2711
+                },
+                "from": {
+                    "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2716,
+                    "endColumn": 50,
+                    "endOffset": 2762
+                },
+                "from": {
+                    "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2767,
+                    "endColumn": 41,
+                    "endOffset": 2804
+                },
+                "from": {
+                    "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2809,
+                    "endColumn": 100,
+                    "endOffset": 2905
+                },
+                "from": {
+                    "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2910,
+                    "endColumn": 49,
+                    "endOffset": 2955
+                },
+                "from": {
+                    "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml"
                 }
             }
         ]

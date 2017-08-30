@@ -1,19 +1,19 @@
 [
     {
-        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
         "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout\\notification_action_tombstone.xml"
+        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
         "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
@@ -28,12 +28,12 @@
         "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
         "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
@@ -60,12 +60,16 @@
         "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\12d7ec7b79081cce0c89d8b54a6d264579ed1b6f\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
+        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
         "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout\\abc_search_view.xml"
+        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\settings_activity.xml",
+        "source": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\layout\\settings_activity.xml"
     },
     {
         "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
@@ -104,10 +108,6 @@
         "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\12d7ec7b79081cce0c89d8b54a6d264579ed1b6f\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
-        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_start.xml",
-        "source": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\layout\\content_start.xml"
-    },
-    {
         "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
@@ -118,6 +118,10 @@
     {
         "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
         "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\appbar_layout.xml",
+        "source": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\layout\\appbar_layout.xml"
     },
     {
         "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",

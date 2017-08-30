@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManifest.xml:3:11-48
 		INJECTED from D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManif
 		INJECTED from D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManifest.xml
 application
-ADDED from D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManifest.xml:5:5-26:19
+ADDED from D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManifest.xml:5:5-30:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\Patrick Wissiak\.android\build-cache\aa0e91f2ebacd152e3a2dcaaa827e839f4037ec4\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\Patrick Wissiak\.android\build-cache\12d7ec7b79081cce0c89d8b54a6d264579ed1b6f\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Patrick Wissiak\.android\build-cache\4ad226db96dedc4ce8b3e049c0387ee34dce9678\output\AndroidManifest.xml:29:5-20
@@ -58,13 +58,19 @@ ADDED from D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManif
 	android:name
 		ADDED from D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManifest.xml:18:27-74
 activity#com.speedOMeter.speedOMeter.SpeedTrackingActivity
-ADDED from D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManifest.xml:22:9-25:58
-	android:label
-		ADDED from D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManifest.xml:24:13-45
+ADDED from D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManifest.xml:22:9-24:58
 	android:theme
-		ADDED from D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManifest.xml:25:13-56
+		ADDED from D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManifest.xml:24:13-56
 	android:name
 		ADDED from D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManifest.xml:23:13-77
+activity#com.speedOMeter.speedOMeter.SettingsActivity
+ADDED from D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManifest.xml:26:9-29:58
+	android:label
+		ADDED from D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManifest.xml:28:13-45
+	android:theme
+		ADDED from D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManifest.xml:29:13-56
+	android:name
+		ADDED from D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManifest.xml:27:13-72
 uses-sdk
 INJECTED from D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\Patrick Wissiak\.android\build-cache\aa0e91f2ebacd152e3a2dcaaa827e839f4037ec4\output\AndroidManifest.xml:5:5-7:41
