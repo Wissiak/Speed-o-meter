@@ -4,7 +4,15 @@
         "source": "C:\\Users\\P\\.android\\build-cache\\11eb32c8cee99c4f01c34eed50d7934afb9caf97\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     },
     {
+        "merged": "S:\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\serge\\.android\\build-cache\\964f04850440da03d0bceca493cf63f303131df9\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
         "merged": "D:\\UEK-Auftraege-PC\\modul335\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
         "source": "C:\\Users\\P\\.android\\build-cache\\11eb32c8cee99c4f01c34eed50d7934afb9caf97\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "S:\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\serge\\.android\\build-cache\\964f04850440da03d0bceca493cf63f303131df9\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     }
 ]

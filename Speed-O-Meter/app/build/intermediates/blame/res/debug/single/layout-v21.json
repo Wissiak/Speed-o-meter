@@ -4,12 +4,28 @@
         "source": "C:\\Users\\P\\.android\\build-cache\\3652e42deaf4fbf2aabbc2009c1159038d19aa54\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
+        "merged": "S:\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\serge\\.android\\build-cache\\fcbe9e4b3d783d12903ee4b8e7c58450e6c81502\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "S:\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\serge\\.android\\build-cache\\fcbe9e4b3d783d12903ee4b8e7c58450e6c81502\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
         "merged": "D:\\UEK-Auftraege-PC\\modul335\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
         "source": "C:\\Users\\P\\.android\\build-cache\\3652e42deaf4fbf2aabbc2009c1159038d19aa54\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
         "merged": "D:\\UEK-Auftraege-PC\\modul335\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
         "source": "C:\\Users\\P\\.android\\build-cache\\3652e42deaf4fbf2aabbc2009c1159038d19aa54\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "S:\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\serge\\.android\\build-cache\\fcbe9e4b3d783d12903ee4b8e7c58450e6c81502\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "S:\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\serge\\.android\\build-cache\\fcbe9e4b3d783d12903ee4b8e7c58450e6c81502\\output\\res\\layout-v21\\notification_action.xml"
     },
     {
         "merged": "D:\\UEK-Auftraege-PC\\modul335\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
