@@ -22,7 +22,7 @@
         <activity
             android:name="com.speedOMeter.speedOMeter.StartActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar" > <!-- android:launchMode="singleInstance" -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -35,6 +35,10 @@
         <activity
             android:name="com.speedOMeter.speedOMeter.SettingsActivity"
             android:label="@string/settings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.speedOMeter.speedOMeter.GraphActivity"
+            android:label="@string/graph"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <provider
