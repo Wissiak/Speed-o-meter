@@ -2,13 +2,13 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="24"
-    build-mode="FULL"
+    build-mode="HOT_WARM"
     density="xxxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1504165601062"
+    timestamp="1504169558105"
     token="-2295440011385611677"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
@@ -18,67 +18,28 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="304" />
+        duration="0" />
     <task
         name="verifier"
-        duration="227" />
+        duration="0" />
 
     <artifact
-        location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\outputs\apk\app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
         build-mode="FULL"
-        timestamp="1504165601062"
+        timestamp="1504168263866"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
         <artifact
             location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
+            location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
@@ -89,17 +50,47 @@
             location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
             location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
+            location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1504169456358"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1504169539532"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
             location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1504169558105"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\UEK-Auftraege-PC\modul335\SpeedOMeter\Speed-O-Meter\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

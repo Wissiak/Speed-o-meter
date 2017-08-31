@@ -32,12 +32,12 @@
         "source": "C:\\Users\\P\\.android\\build-cache\\11eb32c8cee99c4f01c34eed50d7934afb9caf97\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
-        "merged": "D:\\UEK-Auftraege-PC\\modul335\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\P\\.android\\build-cache\\3652e42deaf4fbf2aabbc2009c1159038d19aa54\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
         "merged": "D:\\UEK-Auftraege-PC\\modul335\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
         "source": "C:\\Users\\P\\.android\\build-cache\\11eb32c8cee99c4f01c34eed50d7934afb9caf97\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\UEK-Auftraege-PC\\modul335\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\P\\.android\\build-cache\\3652e42deaf4fbf2aabbc2009c1159038d19aa54\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "D:\\UEK-Auftraege-PC\\modul335\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",

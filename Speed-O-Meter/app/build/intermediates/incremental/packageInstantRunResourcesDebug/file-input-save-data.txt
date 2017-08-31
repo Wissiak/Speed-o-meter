@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Aug 31 09:46:42 CEST 2017
+#Thu Aug 31 10:52:39 CEST 2017
 210.set=ANDROID_RESOURCE
 282.file=D\:\\UEK-Auftraege-PC\\modul335\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png
 14.set=ANDROID_RESOURCE

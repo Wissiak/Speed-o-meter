@@ -1,4 +1,4 @@
-#Thu Aug 31 09:46:44 CEST 2017
+#Thu Aug 31 10:52:21 CEST 2017
 base.0=D\:\\UEK-Auftraege-PC\\modul335\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d5857c2d6ae7564801e55f3b8625b2e4d06d0cb5
 renamed.1=classes2.dex
 renamed.0=classes.dex

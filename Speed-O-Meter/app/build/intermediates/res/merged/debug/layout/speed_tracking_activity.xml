@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/layout_speed_tracking_activity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.speedOMeter.speedOMeter.StartActivity">
 
-    <include layout="@layout/appbar_layout"/>
+    <include layout="@layout/appbar_layout" />
 
-    <GridView
-        android:id="@+id/grid_view"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/speed_tracking_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="@dimen/layout_inset"
         android:layout_marginLeft="@dimen/layout_inset"
         android:layout_marginRight="@dimen/layout_inset"
         android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical"/>
+
+    <!--<GridView
+        android:id="@+id/grid_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
         android:columnWidth="240dp"
         android:gravity="center"
         android:numColumns="auto_fit"
         android:orientation="horizontal"
-        android:stretchMode="columnWidth"/>
+        android:stretchMode="columnWidth" />-->
 
 
     <android.support.design.widget.FloatingActionButton
@@ -29,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:src="@drawable/ic_stop_white_48dp"
-        android:layout_margin="@dimen/fab_margin"/>
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_stop_white_48dp" />
 
 </android.support.design.widget.CoordinatorLayout>
