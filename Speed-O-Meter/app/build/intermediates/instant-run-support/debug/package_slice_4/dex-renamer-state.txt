@@ -1,4 +1,4 @@
-#Sat Aug 26 12:26:19 CEST 2017
-base.0=D\:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_4
+#Thu Aug 31 09:46:44 CEST 2017
+base.0=D\:\\UEK-Auftraege-PC\\modul335\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_4
 renamed.0=classes.dex
-file.0=D\:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_4\\classes.dex
+file.0=D\:\\UEK-Auftraege-PC\\modul335\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_4\\classes.dex

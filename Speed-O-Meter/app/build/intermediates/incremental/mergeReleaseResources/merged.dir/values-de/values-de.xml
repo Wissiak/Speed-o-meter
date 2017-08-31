@@ -28,7 +28,8 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Freigeben für %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Minimieren"</string>
     <string name="app_name">Speed o\'meter</string>
-    <string name="average_speed">Durchschnitt</string>
+    <string name="average_speed">Durchschnittliche Geschwindigkeit</string>
+    <string name="current_measurement">m/s</string>
     <string name="current_speed">Geschwindigkeit</string>
     <string name="max_speed">Maximale Geschwindigkeit</string>
     <string name="measure_speed">Geschwindigkeit messen</string>
