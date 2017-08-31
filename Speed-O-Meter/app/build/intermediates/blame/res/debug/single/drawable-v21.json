@@ -16,6 +16,14 @@
         "source": "C:\\Users\\P\\.android\\build-cache\\3652e42deaf4fbf2aabbc2009c1159038d19aa54\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
+        "merged": "S:\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\serge\\.android\\build-cache\\964f04850440da03d0bceca493cf63f303131df9\\output\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "S:\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\serge\\.android\\build-cache\\fcbe9e4b3d783d12903ee4b8e7c58450e6c81502\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
         "merged": "D:\\UEK-Auftraege-PC\\modul335\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
         "source": "C:\\Users\\P\\.android\\build-cache\\11eb32c8cee99c4f01c34eed50d7934afb9caf97\\output\\res\\drawable-v21\\avd_hide_password.xml"
     },
@@ -26,6 +34,30 @@
     {
         "merged": "D:\\UEK-Auftraege-PC\\modul335\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
         "source": "C:\\Users\\P\\.android\\build-cache\\3652e42deaf4fbf2aabbc2009c1159038d19aa54\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "S:\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\serge\\.android\\build-cache\\fcbe9e4b3d783d12903ee4b8e7c58450e6c81502\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "S:\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\serge\\.android\\build-cache\\fcbe9e4b3d783d12903ee4b8e7c58450e6c81502\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "S:\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\serge\\.android\\build-cache\\964f04850440da03d0bceca493cf63f303131df9\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "S:\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\serge\\.android\\build-cache\\964f04850440da03d0bceca493cf63f303131df9\\output\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "S:\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\serge\\.android\\build-cache\\964f04850440da03d0bceca493cf63f303131df9\\output\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "S:\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\serge\\.android\\build-cache\\fcbe9e4b3d783d12903ee4b8e7c58450e6c81502\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
         "merged": "D:\\UEK-Auftraege-PC\\modul335\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
