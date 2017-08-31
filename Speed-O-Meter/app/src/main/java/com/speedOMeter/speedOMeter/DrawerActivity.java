@@ -55,6 +55,8 @@ public abstract class DrawerActivity extends AppCompatActivity implements Naviga
             intent = new Intent(this, SpeedTrackingActivity.class);
         } else if (id == R.id.nav_settings) {
             intent = new Intent(this, SettingsActivity.class);
+        } else if (id == R.id.nav_graph) {
+            intent = new Intent(this, GraphActivity.class);
         }
         if(intent != null) {
             startActivity(intent);

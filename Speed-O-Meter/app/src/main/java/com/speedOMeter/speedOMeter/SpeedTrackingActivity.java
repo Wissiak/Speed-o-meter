@@ -19,6 +19,8 @@ public class SpeedTrackingActivity extends DrawerActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        final float dpScale = getResources().getDisplayMetrics().density;
+
         setContentView(R.layout.speed_tracking_activity);
         setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
 
@@ -34,10 +36,11 @@ public class SpeedTrackingActivity extends DrawerActivity {
         contentMax.add(this.createTitleTextView(getString(R.string.max_speed), R.color.colorSecondAccent));
         contentMax.add(this.createTextView(getString(R.string.formatted_speed, 0, getString(R.string.current_measurement))));
 
+        int size = (int) (240 * dpScale + 0.5f);
         LinearLayout activityContent = (LinearLayout) findViewById(R.id.speed_tracking_content);
-        activityContent.addView(createGridView(contentCur));
-        activityContent.addView(createGridView(contentAvg));
-        activityContent.addView(createGridView(contentMax));
+        activityContent.addView(createGridView(contentCur, size));
+        activityContent.addView(createGridView(contentAvg, size));
+        activityContent.addView(createGridView(contentMax, size));
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.action_stop_tracking);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -49,13 +52,6 @@ public class SpeedTrackingActivity extends DrawerActivity {
         });
 
         this.createDrawer();
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-
-        System.out.println("hioooooo");
     }
 
     private TextView createTextView(String text) {
@@ -74,9 +70,7 @@ public class SpeedTrackingActivity extends DrawerActivity {
         return textView;
     }
 
-    private GridView createGridView(List<View> content) {
-        final float scale = getResources().getDisplayMetrics().density;
-        int pixels = (int) (240 * scale + 0.5f);
+    private GridView createGridView(List<View> content, int size) {
         GridView gridView = new GridView(this);
         LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT);
         params.weight = 1;
@@ -85,7 +79,7 @@ public class SpeedTrackingActivity extends DrawerActivity {
         gridView.setNumColumns(GridView.AUTO_FIT);
         gridView.setStretchMode(GridView.STRETCH_COLUMN_WIDTH);
         gridView.setAdapter(new ViewAdapter(content));
-        gridView.setColumnWidth(pixels);
+        gridView.setColumnWidth(size);
         return gridView;
     }
 }

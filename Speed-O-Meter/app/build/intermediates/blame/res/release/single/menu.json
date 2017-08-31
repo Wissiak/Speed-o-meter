@@ -1,14 +1,6 @@
 [
     {
-        "merged": "D:\\UEK-Auftraege-PC\\modul335\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\release\\menu\\speed_tracking_menu.xml",
-        "source": "D:\\UEK-Auftraege-PC\\modul335\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\menu\\speed_tracking_menu.xml"
-    },
-    {
-        "merged": "D:\\UEK-Auftraege-PC\\modul335\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\release\\menu\\settings_menu.xml",
-        "source": "D:\\UEK-Auftraege-PC\\modul335\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\menu\\settings_menu.xml"
-    },
-    {
-        "merged": "D:\\UEK-Auftraege-PC\\modul335\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\release\\menu\\start_menu.xml",
-        "source": "D:\\UEK-Auftraege-PC\\modul335\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\menu\\start_menu.xml"
+        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\release\\menu\\drawer_menu.xml",
+        "source": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\menu\\drawer_menu.xml"
     }
 ]

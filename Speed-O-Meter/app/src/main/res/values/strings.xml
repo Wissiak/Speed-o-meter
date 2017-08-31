@@ -19,6 +19,7 @@
     <string name="content">Content</string>
     <string name="app_icon_description">App icon</string>
     <string name="speed_quote" translatable="false">Fast or slow - it doesn\'t matter... You matter!</string>
+    <string name="graph">Graph</string>
 
     <string-array name="languages_array">
         <item>English</item>

@@ -34,8 +34,6 @@ public class ViewAdapter extends BaseAdapter {
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
-        View cell = content.get(i);
-
-        return cell;
+        return content.get(i);
     }
 }

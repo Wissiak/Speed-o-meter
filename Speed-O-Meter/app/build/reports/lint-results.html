@@ -173,10 +173,10 @@ document.getElementById(id).style.display = 'none';
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
-      <span class="mdl-layout-title">Lint Report: 6 warnings</span>
+      <span class="mdl-layout-title">Lint Report: 12 warnings</span>
       <div class="mdl-layout-spacer"></div>
       <nav class="mdl-navigation mdl-layout--large-screen-only">
-Check performed at Thu Aug 31 09:46:32 CEST 2017      </nav>
+Check performed at Thu Aug 31 19:01:28 CEST 2017      </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
@@ -185,7 +185,10 @@ Check performed at Thu Aug 31 09:46:32 CEST 2017      </nav>
       <a class="mdl-navigation__link" href="#overview"><i class="material-icons">dashboard</i>Overview</a>
       <a class="mdl-navigation__link" href="#OldTargetApi"><i class="material-icons warning-icon">warning</i>Target SDK attribute is not targeting latest version (1)</a>
       <a class="mdl-navigation__link" href="#UnusedAttribute"><i class="material-icons warning-icon">warning</i>Attribute unused on older versions (3)</a>
+      <a class="mdl-navigation__link" href="#Typos"><i class="material-icons warning-icon">warning</i>Spelling error (1)</a>
       <a class="mdl-navigation__link" href="#AllowBackup"><i class="material-icons warning-icon">warning</i>AllowBackup/FullBackupContent Problems (1)</a>
+      <a class="mdl-navigation__link" href="#UnusedResources"><i class="material-icons warning-icon">warning</i>Unused resources (4)</a>
+      <a class="mdl-navigation__link" href="#IconMissingDensityFolder"><i class="material-icons warning-icon">warning</i>Missing density folder (1)</a>
       <a class="mdl-navigation__link" href="#GoogleAppIndexingWarning"><i class="material-icons warning-icon">warning</i>Missing support for Firebase App Indexing (1)</a>
     </nav>
   </div>
@@ -207,11 +210,26 @@ Check performed at Thu Aug 31 09:46:32 CEST 2017      </nav>
 <tr>
 <td class="countColumn">3</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#UnusedAttribute">UnusedAttribute</a>: Attribute unused on older versions</td></tr>
+<tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Correctness:Messages">Correctness:Messages</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#Typos">Typos</a>: Spelling error</td></tr>
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Security">Security</a>
 </td></tr>
 <tr>
 <td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#AllowBackup">AllowBackup</a>: AllowBackup/FullBackupContent Problems</td></tr>
+<tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Performance">Performance</a>
+</td></tr>
+<tr>
+<td class="countColumn">4</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#UnusedResources">UnusedResources</a>: Unused resources</td></tr>
+<tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Usability:Icons">Usability:Icons</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#IconMissingDensityFolder">IconMissingDensityFolder</a>: Missing density folder</td></tr>
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Usability">Usability</a>
 </td></tr>
 <tr>
@@ -284,24 +302,24 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../src/main/res/layout/settings_activity.xml">../../src/main/res/layout/settings_activity.xml</a>:29</span>: <span class="message">Attribute <code>elevation</code> is only used in API level 21 and higher (current min is 16)</span><br /><pre class="errorlines">
-<span class="lineno"> 26 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginBottom</span>=<span class="value">"16dp"</span>
-<span class="lineno"> 27 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"16sp"</span>
-<span class="lineno"> 28 </span>            <span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"@string/set_language"</span>
-<span class="caretline"><span class="lineno"> 29 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">elevation</span>=<span class="value">"16dp"</span></span> />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 30 </span>
-<span class="lineno"> 31 </span>        <span class="tag">&lt;Spinner</span><span class="attribute">
-</span><span class="lineno"> 32 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/measurements_spinner"</span>
+<span class="location"><a href="../../src/main/res/layout/settings_activity.xml">../../src/main/res/layout/settings_activity.xml</a>:27</span>: <span class="message">Attribute <code>elevation</code> is only used in API level 21 and higher (current min is 16)</span><br /><pre class="errorlines">
+<span class="lineno"> 24 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginBottom</span>=<span class="value">"16dp"</span>
+<span class="lineno"> 25 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"16sp"</span>
+<span class="lineno"> 26 </span>            <span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"@string/set_language"</span>
+<span class="caretline"><span class="lineno"> 27 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">elevation</span>=<span class="value">"16dp"</span></span> />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 28 </span>
+<span class="lineno"> 29 </span>        <span class="tag">&lt;Spinner</span><span class="attribute">
+</span><span class="lineno"> 30 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/measurements_spinner"</span>
 </pre>
 
-<span class="location"><a href="../../src/main/res/layout/settings_activity.xml">../../src/main/res/layout/settings_activity.xml</a>:45</span>: <span class="message">Attribute <code>elevation</code> is only used in API level 21 and higher (current min is 16)</span><br /><pre class="errorlines">
-<span class="lineno"> 42 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginBottom</span>=<span class="value">"16dp"</span>
-<span class="lineno"> 43 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"16sp"</span>
-<span class="lineno"> 44 </span>            <span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"@string/set_measurement"</span>
-<span class="caretline"><span class="lineno"> 45 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">elevation</span>=<span class="value">"16dp"</span></span> />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 46 </span>
-<span class="lineno"> 47 </span>        <span class="tag">&lt;Spinner</span><span class="attribute">
-</span><span class="lineno"> 48 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/languages_spinner"</span>
+<span class="location"><a href="../../src/main/res/layout/settings_activity.xml">../../src/main/res/layout/settings_activity.xml</a>:43</span>: <span class="message">Attribute <code>elevation</code> is only used in API level 21 and higher (current min is 16)</span><br /><pre class="errorlines">
+<span class="lineno"> 40 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginBottom</span>=<span class="value">"16dp"</span>
+<span class="lineno"> 41 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"16sp"</span>
+<span class="lineno"> 42 </span>            <span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"@string/set_measurement"</span>
+<span class="caretline"><span class="lineno"> 43 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">elevation</span>=<span class="value">"16dp"</span></span> />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 44 </span>
+<span class="lineno"> 45 </span>        <span class="tag">&lt;Spinner</span><span class="attribute">
+</span><span class="lineno"> 46 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/languages_spinner"</span>
 </pre>
 
 <span class="location"><a href="../../src/main/res/layout/start_activity.xml">../../src/main/res/layout/start_activity.xml</a>:27</span>: <span class="message">Attribute <code>elevation</code> is only used in API level 21 and higher (current min is 16)</span><br /><pre class="errorlines">
@@ -346,9 +364,60 @@ Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id
 Dismiss</button>            </div>
             </div>
           </section>
+<a name="Correctness:Messages"></a>
+<a name="Typos"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="card3" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Spelling error</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/values-de/strings.xml">../../src/main/res/values-de/strings.xml</a>:17</span>: <span class="message">"schliessen" is a common misspelling; did you mean "schließen" ?</span><br /><pre class="errorlines">
+<span class="lineno"> 14 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"track_speed"</span>>Geschwindigkeit messen<span class="tag">&lt;/string></span>
+<span class="lineno"> 15 </span>
+<span class="lineno"> 16 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"navigation_drawer_open"</span>>Navigation öffnen<span class="tag">&lt;/string></span>
+<span class="caretline"><span class="lineno"> 17 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"navigation_drawer_close"</span>>Navigation <span class="warning">schliessen</span><span class="tag">&lt;/string></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 18 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"home"</span>>Home<span class="tag">&lt;/string></span>
+<span class="lineno"> 19 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"content"</span>>Inhalt<span class="tag">&lt;/string></span>
+<span class="lineno"> 20 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"app_icon_description"</span>>App icon<span class="tag">&lt;/string></span>
+</pre>
+
+</div>
+<div class="metadata"><div class="explanation" id="explanationTypos" style="display: none;">
+This check looks through the string definitions, and if it finds any words that look like likely misspellings, they are flagged.<br/><br/>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
+To suppress this error, use the issue id "Typos" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Typos</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Messages</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Correctness</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 7/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationTyposLink" onclick="reveal('explanationTypos');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="card3Link" onclick="hideid('card3');">
+Dismiss</button>            </div>
+            </div>
+          </section>
 <a name="Security"></a>
 <a name="AllowBackup"></a>
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="card3" style="display: block;">
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="card4" style="display: block;">
             <div class="mdl-card mdl-cell mdl-cell--12-col">
   <div class="mdl-card__title">
     <h2 class="mdl-card__title-text">AllowBackup/FullBackupContent Problems</h2>
@@ -402,13 +471,153 @@ To suppress this error, use the issue id "AllowBackup" as explained in the <a hr
               </div>
               <div class="mdl-card__actions mdl-card--border">
 <button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationAllowBackupLink" onclick="reveal('explanationAllowBackup');">
-Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="card3Link" onclick="hideid('card3');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="card4Link" onclick="hideid('card4');">
+Dismiss</button>            </div>
+            </div>
+          </section>
+<a name="Performance"></a>
+<a name="UnusedResources"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="card5" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Unused resources</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/values/dimens.xml">../../src/main/res/values/dimens.xml</a>:5</span>: <span class="message">The resource <code>R.dimen.nav_header_height</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno"> 2 </span>    <span class="tag">&lt;dimen</span><span class="attribute"> name</span>=<span class="value">"activity_horizontal_margin"</span>>16dp<span class="tag">&lt;/dimen></span>
+<span class="lineno"> 3 </span>    <span class="tag">&lt;dimen</span><span class="attribute"> name</span>=<span class="value">"activity_vertical_margin"</span>>16dp<span class="tag">&lt;/dimen></span>
+<span class="lineno"> 4 </span>    <span class="tag">&lt;dimen</span><span class="attribute"> name</span>=<span class="value">"nav_header_vertical_spacing"</span>>16dp<span class="tag">&lt;/dimen></span>
+<span class="caretline"><span class="lineno"> 5 </span>    <span class="tag">&lt;dimen</span><span class="attribute"> </span><span class="warning"><span class="attribute">name</span>=<span class="value">"nav_header_height"</span></span>>160dp<span class="tag">&lt;/dimen></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 6 </span>    <span class="tag">&lt;dimen</span><span class="attribute"> name</span>=<span class="value">"fab_margin"</span>>16dp<span class="tag">&lt;/dimen></span>
+<span class="lineno"> 7 </span>    <span class="tag">&lt;dimen</span><span class="attribute"> name</span>=<span class="value">"layout_inset"</span>>16dp<span class="tag">&lt;/dimen></span>
+<span class="lineno"> 8 </span><span class="tag">&lt;/resources></span>
+</pre>
+
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:5</span>: <span class="message">The resource <code>R.string.stop_tracking</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  2 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"app_name"</span>>Speed o\'meter<span class="tag">&lt;/string></span>
+<span class="lineno">  3 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"settings"</span>>Settings<span class="tag">&lt;/string></span>
+<span class="lineno">  4 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"start"</span>>Start<span class="tag">&lt;/string></span>
+<span class="caretline"><span class="lineno">  5 </span>    <span class="tag">&lt;string</span><span class="attribute"> </span><span class="warning"><span class="attribute">name</span>=<span class="value">"stop_tracking"</span></span>>Stop<span class="tag">&lt;/string></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  6 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"average_speed"</span>>Average<span class="tag">&lt;/string></span>
+<span class="lineno">  7 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"current_speed"</span>>Current speed<span class="tag">&lt;/string></span>
+<span class="lineno">  8 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"max_speed"</span>>Max speed<span class="tag">&lt;/string></span>
+</pre>
+
+<ul></ul><button id="Location2DivLink" onclick="reveal('Location2Div');" />+ 1 Additional Locations...</button>
+<div id="Location2Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/values-de/strings.xml">../../src/main/res/values-de/strings.xml</a>:6</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:11</span>: <span class="message">The resource <code>R.string.measure_speed</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  8 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"max_speed"</span>>Max speed<span class="tag">&lt;/string></span>
+<span class="lineno">  9 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"set_language"</span>>Set language<span class="tag">&lt;/string></span>
+<span class="lineno"> 10 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"set_measurement"</span>>Set Measurement<span class="tag">&lt;/string></span>
+<span class="caretline"><span class="lineno"> 11 </span>    <span class="tag">&lt;string</span><span class="attribute"> </span><span class="warning"><span class="attribute">name</span>=<span class="value">"measure_speed"</span></span>>Measure speed<span class="tag">&lt;/string></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 12 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"formatted_speed"</span> <span class="attribute">translatable</span>=<span class="value">"false"</span>>%1$d %2$s<span class="tag">&lt;/string></span>
+<span class="lineno"> 13 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"current_measurement"</span>>m/s<span class="tag">&lt;/string></span>
+<span class="lineno"> 14 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"track_speed"</span>>Track speed<span class="tag">&lt;/string></span>
+</pre>
+
+<ul></ul><button id="Location3DivLink" onclick="reveal('Location3Div');" />+ 1 Additional Locations...</button>
+<div id="Location3Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/values-de/strings.xml">../../src/main/res/values-de/strings.xml</a>:12</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:20</span>: <span class="message">The resource <code>R.string.app_icon_description</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno"> 17 </span>  <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"navigation_drawer_close"</span>>Close navigation drawer<span class="tag">&lt;/string></span>
+<span class="lineno"> 18 </span>  <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"home"</span>>Home<span class="tag">&lt;/string></span>
+<span class="lineno"> 19 </span>  <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"content"</span>>Content<span class="tag">&lt;/string></span>
+<span class="caretline"><span class="lineno"> 20 </span>  <span class="tag">&lt;string</span><span class="attribute"> </span><span class="warning"><span class="attribute">name</span>=<span class="value">"app_icon_description"</span></span>>App icon<span class="tag">&lt;/string></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 21 </span>  <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"speed_quote"</span> <span class="attribute">translatable</span>=<span class="value">"false"</span>>Fast or slow - it doesn\'t matter... You matter!<span class="tag">&lt;/string></span>
+<span class="lineno"> 22 </span>
+<span class="lineno"> 23 </span>  <span class="tag">&lt;string-array</span><span class="attribute"> name</span>=<span class="value">"languages_array"</span>>
+</pre>
+
+<ul></ul><button id="Location4DivLink" onclick="reveal('Location4Div');" />+ 1 Additional Locations...</button>
+<div id="Location4Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/values-de/strings.xml">../../src/main/res/values-de/strings.xml</a>:20</span>
+</ul>
+</div><br/><br/>
+</div>
+<div class="metadata"><div class="explanation" id="explanationUnusedResources" style="display: none;">
+Unused resources make applications larger and slow down builds.<br/><br/>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
+To suppress this error, use the issue id "UnusedResources" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">UnusedResources</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Performance</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 3/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationUnusedResourcesLink" onclick="reveal('explanationUnusedResources');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="card5Link" onclick="hideid('card5');">
+Dismiss</button>            </div>
+            </div>
+          </section>
+<a name="Usability:Icons"></a>
+<a name="IconMissingDensityFolder"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="card6" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Missing density folder</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res">../../src/main/res</a></span>: <span class="message">Missing density variation folders in <code>src\main\res</code>: drawable-mdpi, drawable-hdpi, drawable-xxhdpi</span><br />
+</div>
+<div class="metadata"><div class="explanation" id="explanationIconMissingDensityFolder" style="display: none;">
+Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra-high, extra-extra-high). This lint check identifies folders which are missing, such as <code>drawable-hdpi</code>.<br/>
+<br/>
+Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable <code>ANDROID_LINT_INCLUDE_LDPI=true</code>. For more information on current density usage, see <a href="http://developer.android.com/resources/dashboard/screens.html">http://developer.android.com/resources/dashboard/screens.html</a><br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/practices/screens_support.html">http://developer.android.com/guide/practices/screens_support.html</a>
+</div><br/>To suppress this error, use the issue id "IconMissingDensityFolder" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">IconMissingDensityFolder</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Icons</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Usability</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 3/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationIconMissingDensityFolderLink" onclick="reveal('explanationIconMissingDensityFolder');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="card6Link" onclick="hideid('card6');">
 Dismiss</button>            </div>
             </div>
           </section>
 <a name="Usability"></a>
 <a name="GoogleAppIndexingWarning"></a>
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="card4" style="display: block;">
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="card7" style="display: block;">
             <div class="mdl-card mdl-cell mdl-cell--12-col">
   <div class="mdl-card__title">
     <h2 class="mdl-card__title-text">Missing support for Firebase App Indexing</h2>
@@ -451,12 +660,12 @@ To suppress this error, use the issue id "GoogleAppIndexingWarning" as explained
               </div>
               <div class="mdl-card__actions mdl-card--border">
 <button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationGoogleAppIndexingWarningLink" onclick="reveal('explanationGoogleAppIndexingWarning');">
-Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="card4Link" onclick="hideid('card4');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="card7Link" onclick="hideid('card7');">
 Dismiss</button>            </div>
             </div>
           </section>
 <a name="MissingIssues"></a>
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="card5" style="display: block;">
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="card8" style="display: block;">
             <div class="mdl-card mdl-cell mdl-cell--12-col">
   <div class="mdl-card__title">
     <h2 class="mdl-card__title-text">Disabled Checks</h2>
@@ -698,12 +907,12 @@ To suppress this error, use the issue id "UnusedIds" as explained in the <a href
 </div>              </div>
               <div class="mdl-card__actions mdl-card--border">
 <button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="SuppressedIssuesLink" onclick="reveal('SuppressedIssues');">
-List Missing Issues</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="card5Link" onclick="hideid('card5');">
+List Missing Issues</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="card8Link" onclick="hideid('card8');">
 Dismiss</button>            </div>
             </div>
           </section>
 <a name="SuppressInfo"></a>
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="card6" style="display: block;">
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="card9" style="display: block;">
             <div class="mdl-card mdl-cell mdl-cell--12-col">
   <div class="mdl-card__title">
     <h2 class="mdl-card__title-text">Suppressing Warnings and Errors</h2>
