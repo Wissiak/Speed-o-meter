@@ -8,8 +8,6 @@
     android:layout_height="match_parent"
     tools:context="com.speedOMeter.speedOMeter.StartActivity">
 
-    <include layout="@layout/appbar_layout"/>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -52,5 +50,7 @@
             android:prompt="@string/set_measurement"/>
 
     </LinearLayout>
+
+    <include layout="@layout/drawer_layout" />
 
 </android.support.design.widget.CoordinatorLayout>

@@ -11,6 +11,14 @@
     <string name="measure_speed">Measure speed</string>
     <string name="formatted_speed" translatable="false">%1$d %2$s</string>
     <string name="current_measurement">m/s</string>
+    <string name="track_speed">Track speed</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="home">Home</string>
+    <string name="content">Content</string>
+    <string name="app_icon_description">App icon</string>
+    <string name="speed_quote" translatable="false">Fast or slow - it doesn\'t matter... You matter!</string>
 
     <string-array name="languages_array">
         <item>English</item>

@@ -11,6 +11,13 @@
     <string name="set_measurement">Masseinheit</string>
     <string name="measure_speed">Geschwindigkeit messen</string>
     <string name="current_measurement">m/s</string>
+    <string name="track_speed">Geschwindigkeit messen</string>
+
+    <string name="navigation_drawer_open">Navigation öffnen</string>
+    <string name="navigation_drawer_close">Navigation schliessen</string>
+    <string name="home">Home</string>
+    <string name="content">Inhalt</string>
+    <string name="app_icon_description">App icon</string>
 
     <string-array name="languages_array">
         <item>Deutsch</item>
