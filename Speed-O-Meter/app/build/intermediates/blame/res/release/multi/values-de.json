@@ -16,10 +16,10 @@
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 1037,
+                        "startOffset": 1028,
                         "endLine": 24,
                         "endColumn": 19,
-                        "endOffset": 1156
+                        "endOffset": 1147
                     }
                 }
             },
@@ -37,10 +37,10 @@
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
-                        "startOffset": 1164,
+                        "startOffset": 1155,
                         "endLine": 29,
                         "endColumn": 19,
-                        "endOffset": 1278
+                        "endOffset": 1269
                     }
                 }
             },
@@ -416,11 +416,11 @@
                 "from": {
                     "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 976,
+                        "startOffset": 923,
                         "endColumn": 57,
-                        "endOffset": 1029
+                        "endOffset": 976
                     }
                 }
             },
@@ -473,11 +473,11 @@
                 "from": {
                     "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 932,
+                        "startOffset": 879,
                         "endColumn": 42,
-                        "endOffset": 970
+                        "endOffset": 917
                     }
                 }
             },
@@ -486,27 +486,8 @@
                     "startLine": 33,
                     "startColumn": 4,
                     "startOffset": 2465,
-                    "endColumn": 51,
-                    "endOffset": 2512
-                },
-                "from": {
-                    "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 629,
-                        "endColumn": 51,
-                        "endOffset": 676
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 34,
-                    "startColumn": 4,
-                    "startOffset": 2517,
                     "endColumn": 57,
-                    "endOffset": 2570
+                    "endOffset": 2518
                 },
                 "from": {
                     "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml",
@@ -521,20 +502,39 @@
             },
             {
                 "to": {
-                    "startLine": 35,
+                    "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 2575,
-                    "endColumn": 37,
-                    "endOffset": 2608
+                    "startOffset": 2523,
+                    "endColumn": 42,
+                    "endOffset": 2561
                 },
                 "from": {
                     "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml",
                     "position": {
-                        "startLine": 17,
+                        "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 893,
+                        "startOffset": 982,
+                        "endColumn": 42,
+                        "endOffset": 1020
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2566,
+                    "endColumn": 37,
+                    "endOffset": 2599
+                },
+                "from": {
+                    "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 840,
                         "endColumn": 37,
-                        "endOffset": 926
+                        "endOffset": 873
                     }
                 }
             },
@@ -542,9 +542,9 @@
                 "to": {
                     "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 2613,
+                    "startOffset": 2604,
                     "endColumn": 62,
-                    "endOffset": 2671
+                    "endOffset": 2662
                 },
                 "from": {
                     "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml",
@@ -561,9 +561,9 @@
                 "to": {
                     "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 2676,
+                    "startOffset": 2667,
                     "endColumn": 64,
-                    "endOffset": 2736
+                    "endOffset": 2727
                 },
                 "from": {
                     "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml",
@@ -580,18 +580,18 @@
                 "to": {
                     "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 2741,
+                    "startOffset": 2732,
                     "endColumn": 73,
-                    "endOffset": 2810
+                    "endOffset": 2801
                 },
                 "from": {
                     "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 818,
+                        "startOffset": 765,
                         "endColumn": 73,
-                        "endOffset": 887
+                        "endOffset": 834
                     }
                 }
             },
@@ -599,18 +599,18 @@
                 "to": {
                     "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 2815,
+                    "startOffset": 2806,
                     "endColumn": 68,
-                    "endOffset": 2879
+                    "endOffset": 2870
                 },
                 "from": {
                     "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 748,
+                        "startOffset": 695,
                         "endColumn": 68,
-                        "endOffset": 812
+                        "endOffset": 759
                     }
                 }
             },
@@ -618,9 +618,9 @@
                 "to": {
                     "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 2884,
+                    "startOffset": 2875,
                     "endColumn": 81,
-                    "endOffset": 2961
+                    "endOffset": 2952
                 },
                 "from": {
                     "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
@@ -637,9 +637,9 @@
                 "to": {
                     "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 2966,
+                    "startOffset": 2957,
                     "endColumn": 48,
-                    "endOffset": 3010
+                    "endOffset": 3001
                 },
                 "from": {
                     "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml",
@@ -656,9 +656,9 @@
                 "to": {
                     "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 3015,
+                    "startOffset": 3006,
                     "endColumn": 55,
-                    "endOffset": 3066
+                    "endOffset": 3057
                 },
                 "from": {
                     "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml",
@@ -675,9 +675,9 @@
                 "to": {
                     "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 3071,
+                    "startOffset": 3062,
                     "endColumn": 50,
-                    "endOffset": 3117
+                    "endOffset": 3108
                 },
                 "from": {
                     "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml",
@@ -694,9 +694,9 @@
                 "to": {
                     "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 3122,
+                    "startOffset": 3113,
                     "endColumn": 41,
-                    "endOffset": 3159
+                    "endOffset": 3150
                 },
                 "from": {
                     "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml",
@@ -713,9 +713,9 @@
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 3164,
+                    "startOffset": 3155,
                     "endColumn": 100,
-                    "endOffset": 3260
+                    "endOffset": 3251
                 },
                 "from": {
                     "file": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\values-de\\values-de.xml",
@@ -732,9 +732,9 @@
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 3265,
+                    "startOffset": 3256,
                     "endColumn": 49,
-                    "endOffset": 3310
+                    "endOffset": 3301
                 },
                 "from": {
                     "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml",
@@ -751,18 +751,18 @@
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 3315,
+                    "startOffset": 3306,
                     "endColumn": 62,
-                    "endOffset": 3373
+                    "endOffset": 3364
                 },
                 "from": {
                     "file": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\values-de\\strings.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 682,
+                        "startOffset": 629,
                         "endColumn": 62,
-                        "endOffset": 740
+                        "endOffset": 687
                     }
                 }
             }

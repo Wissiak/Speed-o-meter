@@ -33,7 +33,7 @@
         quickfix="studio">
         <location
             file="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\res\layout\settings_activity.xml"
-            line="27"
+            line="26"
             column="13"/>
     </issue>
 
@@ -50,7 +50,7 @@
         quickfix="studio">
         <location
             file="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\res\layout\settings_activity.xml"
-            line="43"
+            line="42"
             column="13"/>
     </issue>
 
@@ -84,7 +84,7 @@
         quickfix="studio">
         <location
             file="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\res\values-de\strings.xml"
-            line="17"
+            line="16"
             column="55"/>
     </issue>
 
@@ -105,6 +105,23 @@
             file="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManifest.xml"
             line="5"
             column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.color.colorPrimaryText` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;color name=&quot;colorPrimaryText&quot;>#212121&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\res\values\colors.xml"
+            line="6"
+            column="12"/>
     </issue>
 
     <issue
@@ -179,11 +196,11 @@
         quickfix="studio">
         <location
             file="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\res\values\strings.xml"
-            line="20"
+            line="18"
             column="13"/>
         <location
             file="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\res\values-de\strings.xml"
-            line="20"
+            line="19"
             column="13"/>
     </issue>
 
@@ -218,6 +235,22 @@
             file="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\AndroidManifest.xml"
             line="5"
             column="5"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        severity="Warning"
+        message="[I18N] Hardcoded string &quot;Graph&quot;, should use `@string` resource"
+        category="Internationalization"
+        priority="5"
+        summary="Hardcoded text"
+        explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait)you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
+        errorLine1="            android:text=&quot;Graph&quot;/>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\src\main\res\layout\graph_activity.xml"
+            line="23"
+            column="13"/>
     </issue>
 
 </issues>

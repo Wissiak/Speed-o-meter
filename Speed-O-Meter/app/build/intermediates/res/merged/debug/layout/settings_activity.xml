@@ -5,7 +5,7 @@
     android:id="@+id/layout_settings_activity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.speedOMeter.speedOMeter.StartActivity">
+    tools:context="com.speedOMeter.speedOMeter.SettingsActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,14 +22,14 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             android:textSize="16sp"
-            android:text="@string/set_language"
-            android:elevation="16dp" />
+            android:text="@string/set_language" />
 
         <Spinner
-            android:id="@+id/measurements_spinner"
+            android:id="@+id/languages_spinner"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:entries="@array/languages_array"
+            android:background="@android:drawable/btn_dropdown"
             android:prompt="@string/set_language"/>
 
         <TextView
@@ -38,15 +38,14 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             android:textSize="16sp"
-            android:text="@string/set_measurement"
-            android:elevation="16dp" />
+            android:text="@string/set_measurement" />
 
         <Spinner
-            android:id="@+id/languages_spinner"
+            android:id="@+id/measurements_spinner"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:entries="@array/measurements_array"
-            android:prompt="@string/set_measurement"/>
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"/>
 
     </LinearLayout>
 

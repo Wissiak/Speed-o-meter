@@ -18,5 +18,9 @@
     {
         "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_menu_graph.png",
         "source": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_menu_graph.png"
+    },
+    {
+        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_start.png",
+        "source": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_start.png"
     }
 ]

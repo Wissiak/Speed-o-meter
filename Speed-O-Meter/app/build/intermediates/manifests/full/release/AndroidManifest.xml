@@ -36,6 +36,10 @@
             android:name="com.speedOMeter.speedOMeter.SettingsActivity"
             android:label="@string/settings"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.speedOMeter.speedOMeter.GraphActivity"
+            android:label="@string/graph"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

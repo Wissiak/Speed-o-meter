@@ -4,6 +4,10 @@
         "source": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\generated\\res\\pngs\\release\\drawable-xhdpi\\ic_menu_home.png"
     },
     {
+        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_menu_graph.png",
+        "source": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\generated\\res\\pngs\\release\\drawable-xhdpi\\ic_menu_graph.png"
+    },
+    {
         "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_menu_settings.png",
         "source": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\generated\\res\\pngs\\release\\drawable-xhdpi\\ic_menu_settings.png"
     },

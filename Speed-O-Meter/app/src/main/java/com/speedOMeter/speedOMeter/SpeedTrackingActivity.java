@@ -1,8 +1,11 @@
 package com.speedOMeter.speedOMeter;
 
+import android.graphics.Typeface;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
@@ -13,73 +16,163 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class SpeedTrackingActivity extends DrawerActivity {
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    private SharedPreferenceHandler preferenceHandler = null;
+    private boolean isTracking;
 
-        final float dpScale = getResources().getDisplayMetrics().density;
+    public SpeedTrackingActivity() {
+        this.isTracking = true;
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        if(isTracking) {
+            //Create SharedPreferenceHandler if onStart() is called the first time
+            preferenceHandler = new SharedPreferenceHandler(getApplicationContext());
+        }
+        isTracking = true;
+
+        final Handler handler = new Handler();
+        new Thread(new Runnable() {
+            public void run() {
+                while (isTracking) {
+                    try {
+                        Thread.sleep(1500);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    handler.post(new Runnable(){
+                        public void run() {
+                            //Update speed every 1.5s
+                            updateContent(preferenceHandler.getCurrentSpeed(), preferenceHandler.getAverageSpeed(), preferenceHandler.getMaxSpeed());
+                            preferenceHandler.setSpeed(new Random().nextFloat() * 200); //TODO: remove this
+                        }
+                    });
+                }
+            }
+        }).start();
+    }
+
+    private void updateContent(float curSpeed, float averageSpeed, float maxSpeed) {
+        String measurement = preferenceHandler.getMeasurement();
+        TextView curText = (TextView) findViewById(R.id.cur_text);
+        TextView avgText = (TextView) findViewById(R.id.avg_text);
+        TextView maxText = (TextView) findViewById(R.id.max_text);
+        curText.setText(curSpeed + "\n" + measurement);
+        avgText.setText(averageSpeed + "\n" + measurement);
+        maxText.setText(maxSpeed + "\n" + measurement);
+    }
+
+    @Override
+    protected void onCreate(final Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
 
         setContentView(R.layout.speed_tracking_activity);
         setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
 
-        ArrayList<View> contentCur = new ArrayList<>();
-        contentCur.add(this.createTitleTextView(getString(R.string.current_speed), R.color.colorThirdAccent));
-        contentCur.add(this.createTextView(getString(R.string.formatted_speed, 0, getString(R.string.current_measurement))));
-
-        ArrayList<View> contentAvg = new ArrayList<>();
-        contentAvg.add(this.createTitleTextView(getString(R.string.average_speed), R.color.colorFourthAccent));
-        contentAvg.add(this.createTextView(getString(R.string.formatted_speed, 0, getString(R.string.current_measurement))));
-
-        ArrayList<View> contentMax = new ArrayList<>();
-        contentMax.add(this.createTitleTextView(getString(R.string.max_speed), R.color.colorSecondAccent));
-        contentMax.add(this.createTextView(getString(R.string.formatted_speed, 0, getString(R.string.current_measurement))));
-
-        int size = (int) (240 * dpScale + 0.5f);
-        LinearLayout activityContent = (LinearLayout) findViewById(R.id.speed_tracking_content);
-        activityContent.addView(createGridView(contentCur, size));
-        activityContent.addView(createGridView(contentAvg, size));
-        activityContent.addView(createGridView(contentMax, size));
+        this.setContent();
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.action_stop_tracking);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.action_stop_tracking);
+                Drawable drawable;
+                if(isTracking) {
+                    isTracking = false;
+                    drawable = ContextCompat.getDrawable(getApplicationContext(), R.drawable.ic_start);
+                } else {
+                    onStart();
+                    drawable = ContextCompat.getDrawable(getApplicationContext(), R.drawable.ic_stop);
+                }
+                fab.setImageDrawable(drawable);
             }
         });
 
         this.createDrawer();
     }
 
-    private TextView createTextView(String text) {
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        this.isTracking = true;
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+
+        this.isTracking = false;
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+
+        this.isTracking = false;
+    }
+
+    private void setContent() {
+        ArrayList<View> contentCur = new ArrayList<>();
+        contentCur.add(this.createTextView(getString(R.string.current_speed), true, 0));
+        contentCur.add(this.createTextView("0.0", false, R.id.cur_text));
+
+        ArrayList<View> contentAvg = new ArrayList<>();
+        contentAvg.add(this.createTextView(getString(R.string.average_speed), true, 0));
+        contentAvg.add(this.createTextView("0.0", false, R.id.avg_text));
+
+        ArrayList<View> contentMax = new ArrayList<>();
+        contentMax.add(this.createTextView(getString(R.string.max_speed), true, 0));
+        contentMax.add(this.createTextView("0.0", false, R.id.max_text));
+
+        LinearLayout activityContent = (LinearLayout) findViewById(R.id.speed_tracking_content);
+        //Create a grid view to support landscape mode
+        activityContent.addView(createGridView(contentCur, R.color.colorFourthAccent));
+        activityContent.addView(createGridView(contentAvg, R.color.colorThirdAccent));
+        activityContent.addView(createGridView(contentMax, R.color.colorSecondAccent));
+    }
+
+    private TextView createTextView(String text, boolean isTitle, int id) {
         TextView textView = new TextView(this);
+        if (!isTitle) {
+            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+            params.setMargins(0, 100, 0, 0);
+            textView.setLayoutParams(params);
+            textView.setTextSize(45);
+            textView.setTypeface(null, Typeface.BOLD);
+            textView.setId(id);
+        } else {
+            textView.setTextSize(20);
+        }
         textView.setText(text);
-        textView.setGravity(Gravity.CENTER);
+        textView.setGravity(isTitle ? Gravity.CENTER : Gravity.CENTER);
         return textView;
     }
 
-    private TextView createTitleTextView(String text, int colorId) {
-        TextView textView = new TextView(this);
-        textView.setText(text);
-        textView.setTextSize(34);
-        textView.setTextColor(ResourcesCompat.getColor(getResources(), colorId, null));
-        textView.setGravity(Gravity.CENTER_VERTICAL);
-        return textView;
+    private int calculatePxFromDp(int dp) {
+        final float dpScale = getResources().getDisplayMetrics().density;
+        return (int) (dp * dpScale + 0.5f);
     }
 
-    private GridView createGridView(List<View> content, int size) {
+    private GridView createGridView(List<View> content, int colorId) {
+        int margin = calculatePxFromDp(16);
         GridView gridView = new GridView(this);
+
         LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT);
         params.weight = 1;
+        gridView.setPadding(margin, margin, margin, margin);
         gridView.setLayoutParams(params);
-        gridView.setGravity(Gravity.CENTER);
         gridView.setNumColumns(GridView.AUTO_FIT);
         gridView.setStretchMode(GridView.STRETCH_COLUMN_WIDTH);
         gridView.setAdapter(new ViewAdapter(content));
-        gridView.setColumnWidth(size);
+        gridView.setColumnWidth(this.calculatePxFromDp(240));
+        gridView.setBackgroundColor(ResourcesCompat.getColor(getResources(), colorId, null));
+        gridView.setGravity(Gravity.CENTER);
         return gridView;
     }
 }

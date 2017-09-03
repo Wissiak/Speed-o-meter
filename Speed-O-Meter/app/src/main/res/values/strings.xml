@@ -9,8 +9,6 @@
     <string name="set_language">Set language</string>
     <string name="set_measurement">Set Measurement</string>
     <string name="measure_speed">Measure speed</string>
-    <string name="formatted_speed" translatable="false">%1$d %2$s</string>
-    <string name="current_measurement">m/s</string>
     <string name="track_speed">Track speed</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>

@@ -10,7 +10,6 @@
     <string name="set_language">Sprache</string>
     <string name="set_measurement">Masseinheit</string>
     <string name="measure_speed">Geschwindigkeit messen</string>
-    <string name="current_measurement">m/s</string>
     <string name="track_speed">Geschwindigkeit messen</string>
 
     <string name="navigation_drawer_open">Navigation öffnen</string>

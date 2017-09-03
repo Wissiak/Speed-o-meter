@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout\\notification_template_icon_group.xml"
-    },
-    {
         "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_text_input_password_icon.xml",
         "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\12d7ec7b79081cce0c89d8b54a6d264579ed1b6f\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
         "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item_separator.xml",
@@ -226,6 +226,10 @@
     {
         "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\release\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\release\\layout\\graph_activity.xml",
+        "source": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\src\\main\\res\\layout\\graph_activity.xml"
     },
     {
         "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_dropdown_item_icons_2line.xml",

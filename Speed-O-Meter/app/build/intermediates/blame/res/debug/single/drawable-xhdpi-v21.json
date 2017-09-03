@@ -12,6 +12,10 @@
         "source": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi-v21\\ic_menu_settings.xml"
     },
     {
+        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v21\\ic_start.xml",
+        "source": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi-v21\\ic_start.xml"
+    },
+    {
         "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v21\\ic_menu_graph.xml",
         "source": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi-v21\\ic_menu_graph.xml"
     },

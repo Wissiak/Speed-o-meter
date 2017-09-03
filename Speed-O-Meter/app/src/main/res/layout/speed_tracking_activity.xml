@@ -10,9 +10,6 @@
         android:id="@+id/speed_tracking_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="@dimen/layout_inset"
-        android:layout_marginLeft="@dimen/layout_inset"
-        android:layout_marginRight="@dimen/layout_inset"
         android:layout_marginTop="?attr/actionBarSize"
         android:orientation="vertical"/>
 

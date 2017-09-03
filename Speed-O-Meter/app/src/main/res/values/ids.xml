@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="cur_text" type="id"/>
+    <item name="avg_text" type="id"/>
+    <item name="max_text" type="id"/>
+</resources>

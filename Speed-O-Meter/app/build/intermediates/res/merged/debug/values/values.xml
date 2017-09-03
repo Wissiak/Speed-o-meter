@@ -125,12 +125,13 @@
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="colorAccent">#f44336</color>
-    <color name="colorFourthAccent">#2196f3</color>
+    <color name="colorFourthAccent">#502196f3</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorPrimaryLight">#757de8</color>
-    <color name="colorSecondAccent">#ffc107</color>
-    <color name="colorThirdAccent">#4caf50</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondAccent">#50ffc107</color>
+    <color name="colorThirdAccent">#504caf50</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>
@@ -643,8 +644,11 @@
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
+    <item name="avg_text" type="id"/>
+    <item name="cur_text" type="id"/>
     <item name="home" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
+    <item name="max_text" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
     <item name="split_action_bar" type="id"/>
@@ -701,9 +705,7 @@
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="content">Content</string>
-    <string name="current_measurement">m/s</string>
     <string name="current_speed">Current speed</string>
-    <string name="formatted_speed" translatable="false">%1$d %2$s</string>
     <string name="graph">Graph</string>
     <string name="home">Home</string>
     <string name="max_speed">Max speed</string>

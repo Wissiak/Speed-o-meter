@@ -31,8 +31,8 @@
     <string name="app_name">Speed o\'meter</string>
     <string name="average_speed">Durchschnittliche Geschwindigkeit</string>
     <string name="content">Inhalt</string>
-    <string name="current_measurement">m/s</string>
     <string name="current_speed">Geschwindigkeit</string>
+    <string name="graph">Diagramm</string>
     <string name="home">Home</string>
     <string name="max_speed">Maximale Geschwindigkeit</string>
     <string name="measure_speed">Geschwindigkeit messen</string>

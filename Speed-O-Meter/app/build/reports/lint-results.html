@@ -173,10 +173,10 @@ document.getElementById(id).style.display = 'none';
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
-      <span class="mdl-layout-title">Lint Report: 12 warnings</span>
+      <span class="mdl-layout-title">Lint Report: 14 warnings</span>
       <div class="mdl-layout-spacer"></div>
       <nav class="mdl-navigation mdl-layout--large-screen-only">
-Check performed at Thu Aug 31 19:01:28 CEST 2017      </nav>
+Check performed at Sat Sep 02 12:40:50 CEST 2017      </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
@@ -187,9 +187,10 @@ Check performed at Thu Aug 31 19:01:28 CEST 2017      </nav>
       <a class="mdl-navigation__link" href="#UnusedAttribute"><i class="material-icons warning-icon">warning</i>Attribute unused on older versions (3)</a>
       <a class="mdl-navigation__link" href="#Typos"><i class="material-icons warning-icon">warning</i>Spelling error (1)</a>
       <a class="mdl-navigation__link" href="#AllowBackup"><i class="material-icons warning-icon">warning</i>AllowBackup/FullBackupContent Problems (1)</a>
-      <a class="mdl-navigation__link" href="#UnusedResources"><i class="material-icons warning-icon">warning</i>Unused resources (4)</a>
+      <a class="mdl-navigation__link" href="#UnusedResources"><i class="material-icons warning-icon">warning</i>Unused resources (5)</a>
       <a class="mdl-navigation__link" href="#IconMissingDensityFolder"><i class="material-icons warning-icon">warning</i>Missing density folder (1)</a>
       <a class="mdl-navigation__link" href="#GoogleAppIndexingWarning"><i class="material-icons warning-icon">warning</i>Missing support for Firebase App Indexing (1)</a>
+      <a class="mdl-navigation__link" href="#HardcodedText"><i class="material-icons warning-icon">warning</i>Hardcoded text (1)</a>
     </nav>
   </div>
   <main class="mdl-layout__content">
@@ -223,7 +224,7 @@ Check performed at Thu Aug 31 19:01:28 CEST 2017      </nav>
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Performance">Performance</a>
 </td></tr>
 <tr>
-<td class="countColumn">4</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<td class="countColumn">5</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#UnusedResources">UnusedResources</a>: Unused resources</td></tr>
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Usability:Icons">Usability:Icons</a>
 </td></tr>
@@ -235,6 +236,11 @@ Check performed at Thu Aug 31 19:01:28 CEST 2017      </nav>
 <tr>
 <td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#GoogleAppIndexingWarning">GoogleAppIndexingWarning</a>: Missing support for Firebase App Indexing</td></tr>
+<tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Internationalization">Internationalization</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#HardcodedText">HardcodedText</a>: Hardcoded text</td></tr>
 <tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (21)</a>
 </td></tr></table>
 <br/>              </div>
@@ -302,24 +308,24 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../src/main/res/layout/settings_activity.xml">../../src/main/res/layout/settings_activity.xml</a>:27</span>: <span class="message">Attribute <code>elevation</code> is only used in API level 21 and higher (current min is 16)</span><br /><pre class="errorlines">
-<span class="lineno"> 24 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginBottom</span>=<span class="value">"16dp"</span>
-<span class="lineno"> 25 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"16sp"</span>
-<span class="lineno"> 26 </span>            <span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"@string/set_language"</span>
-<span class="caretline"><span class="lineno"> 27 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">elevation</span>=<span class="value">"16dp"</span></span> />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 28 </span>
-<span class="lineno"> 29 </span>        <span class="tag">&lt;Spinner</span><span class="attribute">
-</span><span class="lineno"> 30 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/measurements_spinner"</span>
+<span class="location"><a href="../../src/main/res/layout/settings_activity.xml">../../src/main/res/layout/settings_activity.xml</a>:26</span>: <span class="message">Attribute <code>elevation</code> is only used in API level 21 and higher (current min is 16)</span><br /><pre class="errorlines">
+<span class="lineno"> 23 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginBottom</span>=<span class="value">"16dp"</span>
+<span class="lineno"> 24 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"16sp"</span>
+<span class="lineno"> 25 </span>            <span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"@string/set_language"</span>
+<span class="caretline"><span class="lineno"> 26 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">elevation</span>=<span class="value">"16dp"</span></span> />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 27 </span>
+<span class="lineno"> 28 </span>        <span class="tag">&lt;Spinner</span><span class="attribute">
+</span><span class="lineno"> 29 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/measurements_spinner"</span>
 </pre>
 
-<span class="location"><a href="../../src/main/res/layout/settings_activity.xml">../../src/main/res/layout/settings_activity.xml</a>:43</span>: <span class="message">Attribute <code>elevation</code> is only used in API level 21 and higher (current min is 16)</span><br /><pre class="errorlines">
-<span class="lineno"> 40 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginBottom</span>=<span class="value">"16dp"</span>
-<span class="lineno"> 41 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"16sp"</span>
-<span class="lineno"> 42 </span>            <span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"@string/set_measurement"</span>
-<span class="caretline"><span class="lineno"> 43 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">elevation</span>=<span class="value">"16dp"</span></span> />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 44 </span>
-<span class="lineno"> 45 </span>        <span class="tag">&lt;Spinner</span><span class="attribute">
-</span><span class="lineno"> 46 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/languages_spinner"</span>
+<span class="location"><a href="../../src/main/res/layout/settings_activity.xml">../../src/main/res/layout/settings_activity.xml</a>:42</span>: <span class="message">Attribute <code>elevation</code> is only used in API level 21 and higher (current min is 16)</span><br /><pre class="errorlines">
+<span class="lineno"> 39 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginBottom</span>=<span class="value">"16dp"</span>
+<span class="lineno"> 40 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"16sp"</span>
+<span class="lineno"> 41 </span>            <span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"@string/set_measurement"</span>
+<span class="caretline"><span class="lineno"> 42 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">elevation</span>=<span class="value">"16dp"</span></span> />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 43 </span>
+<span class="lineno"> 44 </span>        <span class="tag">&lt;Spinner</span><span class="attribute">
+</span><span class="lineno"> 45 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/languages_spinner"</span>
 </pre>
 
 <span class="location"><a href="../../src/main/res/layout/start_activity.xml">../../src/main/res/layout/start_activity.xml</a>:27</span>: <span class="message">Attribute <code>elevation</code> is only used in API level 21 and higher (current min is 16)</span><br /><pre class="errorlines">
@@ -374,14 +380,14 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../src/main/res/values-de/strings.xml">../../src/main/res/values-de/strings.xml</a>:17</span>: <span class="message">"schliessen" is a common misspelling; did you mean "schließen" ?</span><br /><pre class="errorlines">
-<span class="lineno"> 14 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"track_speed"</span>>Geschwindigkeit messen<span class="tag">&lt;/string></span>
-<span class="lineno"> 15 </span>
-<span class="lineno"> 16 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"navigation_drawer_open"</span>>Navigation öffnen<span class="tag">&lt;/string></span>
-<span class="caretline"><span class="lineno"> 17 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"navigation_drawer_close"</span>>Navigation <span class="warning">schliessen</span><span class="tag">&lt;/string></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 18 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"home"</span>>Home<span class="tag">&lt;/string></span>
-<span class="lineno"> 19 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"content"</span>>Inhalt<span class="tag">&lt;/string></span>
-<span class="lineno"> 20 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"app_icon_description"</span>>App icon<span class="tag">&lt;/string></span>
+<span class="location"><a href="../../src/main/res/values-de/strings.xml">../../src/main/res/values-de/strings.xml</a>:16</span>: <span class="message">"schliessen" is a common misspelling; did you mean "schließen" ?</span><br /><pre class="errorlines">
+<span class="lineno"> 13 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"track_speed"</span>>Geschwindigkeit messen<span class="tag">&lt;/string></span>
+<span class="lineno"> 14 </span>
+<span class="lineno"> 15 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"navigation_drawer_open"</span>>Navigation öffnen<span class="tag">&lt;/string></span>
+<span class="caretline"><span class="lineno"> 16 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"navigation_drawer_close"</span>>Navigation <span class="warning">schliessen</span><span class="tag">&lt;/string></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 17 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"home"</span>>Home<span class="tag">&lt;/string></span>
+<span class="lineno"> 18 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"content"</span>>Inhalt<span class="tag">&lt;/string></span>
+<span class="lineno"> 19 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"app_icon_description"</span>>App icon<span class="tag">&lt;/string></span>
 </pre>
 
 </div>
@@ -485,6 +491,16 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
+<span class="location"><a href="../../src/main/res/values/colors.xml">../../src/main/res/values/colors.xml</a>:6</span>: <span class="message">The resource <code>R.color.colorPrimaryText</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  3 </span>    <span class="tag">&lt;color</span><span class="attribute"> name</span>=<span class="value">"colorPrimary"</span>>#3F51B5<span class="tag">&lt;/color></span>
+<span class="lineno">  4 </span>    <span class="tag">&lt;color</span><span class="attribute"> name</span>=<span class="value">"colorPrimaryDark"</span>>#303F9F<span class="tag">&lt;/color></span>
+<span class="lineno">  5 </span>    <span class="tag">&lt;color</span><span class="attribute"> name</span>=<span class="value">"colorPrimaryLight"</span>>#757de8<span class="tag">&lt;/color></span>
+<span class="caretline"><span class="lineno">  6 </span>    <span class="tag">&lt;color</span><span class="attribute"> </span><span class="warning"><span class="attribute">name</span>=<span class="value">"colorPrimaryText"</span></span>>#212121<span class="tag">&lt;/color></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  7 </span>
+<span class="lineno">  8 </span>    <span class="tag">&lt;color</span><span class="attribute"> name</span>=<span class="value">"colorAccent"</span>>#f44336<span class="tag">&lt;/color></span>
+<span class="lineno">  9 </span>
+</pre>
+
 <span class="location"><a href="../../src/main/res/values/dimens.xml">../../src/main/res/values/dimens.xml</a>:5</span>: <span class="message">The resource <code>R.dimen.nav_header_height</code> appears to be unused</span><br /><pre class="errorlines">
 <span class="lineno"> 2 </span>    <span class="tag">&lt;dimen</span><span class="attribute"> name</span>=<span class="value">"activity_horizontal_margin"</span>>16dp<span class="tag">&lt;/dimen></span>
 <span class="lineno"> 3 </span>    <span class="tag">&lt;dimen</span><span class="attribute"> name</span>=<span class="value">"activity_vertical_margin"</span>>16dp<span class="tag">&lt;/dimen></span>
@@ -505,8 +521,8 @@ Dismiss</button>            </div>
 <span class="lineno">  8 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"max_speed"</span>>Max speed<span class="tag">&lt;/string></span>
 </pre>
 
-<ul></ul><button id="Location2DivLink" onclick="reveal('Location2Div');" />+ 1 Additional Locations...</button>
-<div id="Location2Div" style="display: none">
+<ul></ul><button id="Location3DivLink" onclick="reveal('Location3Div');" />+ 1 Additional Locations...</button>
+<div id="Location3Div" style="display: none">
 Additional locations: <ul>
 <li> <span class="location"><a href="../../src/main/res/values-de/strings.xml">../../src/main/res/values-de/strings.xml</a>:6</span>
 </ul>
@@ -516,31 +532,31 @@ Additional locations: <ul>
 <span class="lineno">  9 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"set_language"</span>>Set language<span class="tag">&lt;/string></span>
 <span class="lineno"> 10 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"set_measurement"</span>>Set Measurement<span class="tag">&lt;/string></span>
 <span class="caretline"><span class="lineno"> 11 </span>    <span class="tag">&lt;string</span><span class="attribute"> </span><span class="warning"><span class="attribute">name</span>=<span class="value">"measure_speed"</span></span>>Measure speed<span class="tag">&lt;/string></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 12 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"formatted_speed"</span> <span class="attribute">translatable</span>=<span class="value">"false"</span>>%1$d %2$s<span class="tag">&lt;/string></span>
-<span class="lineno"> 13 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"current_measurement"</span>>m/s<span class="tag">&lt;/string></span>
-<span class="lineno"> 14 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"track_speed"</span>>Track speed<span class="tag">&lt;/string></span>
-</pre>
-
-<ul></ul><button id="Location3DivLink" onclick="reveal('Location3Div');" />+ 1 Additional Locations...</button>
-<div id="Location3Div" style="display: none">
-Additional locations: <ul>
-<li> <span class="location"><a href="../../src/main/res/values-de/strings.xml">../../src/main/res/values-de/strings.xml</a>:12</span>
-</ul>
-</div><br/><br/>
-<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:20</span>: <span class="message">The resource <code>R.string.app_icon_description</code> appears to be unused</span><br /><pre class="errorlines">
-<span class="lineno"> 17 </span>  <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"navigation_drawer_close"</span>>Close navigation drawer<span class="tag">&lt;/string></span>
-<span class="lineno"> 18 </span>  <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"home"</span>>Home<span class="tag">&lt;/string></span>
-<span class="lineno"> 19 </span>  <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"content"</span>>Content<span class="tag">&lt;/string></span>
-<span class="caretline"><span class="lineno"> 20 </span>  <span class="tag">&lt;string</span><span class="attribute"> </span><span class="warning"><span class="attribute">name</span>=<span class="value">"app_icon_description"</span></span>>App icon<span class="tag">&lt;/string></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 21 </span>  <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"speed_quote"</span> <span class="attribute">translatable</span>=<span class="value">"false"</span>>Fast or slow - it doesn\'t matter... You matter!<span class="tag">&lt;/string></span>
-<span class="lineno"> 22 </span>
-<span class="lineno"> 23 </span>  <span class="tag">&lt;string-array</span><span class="attribute"> name</span>=<span class="value">"languages_array"</span>>
+<span class="lineno"> 12 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"track_speed"</span>>Track speed<span class="tag">&lt;/string></span>
+<span class="lineno"> 13 </span>
+<span class="lineno"> 14 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"navigation_drawer_open"</span>>Open navigation drawer<span class="tag">&lt;/string></span>
 </pre>
 
 <ul></ul><button id="Location4DivLink" onclick="reveal('Location4Div');" />+ 1 Additional Locations...</button>
 <div id="Location4Div" style="display: none">
 Additional locations: <ul>
-<li> <span class="location"><a href="../../src/main/res/values-de/strings.xml">../../src/main/res/values-de/strings.xml</a>:20</span>
+<li> <span class="location"><a href="../../src/main/res/values-de/strings.xml">../../src/main/res/values-de/strings.xml</a>:12</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:18</span>: <span class="message">The resource <code>R.string.app_icon_description</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno"> 15 </span>  <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"navigation_drawer_close"</span>>Close navigation drawer<span class="tag">&lt;/string></span>
+<span class="lineno"> 16 </span>  <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"home"</span>>Home<span class="tag">&lt;/string></span>
+<span class="lineno"> 17 </span>  <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"content"</span>>Content<span class="tag">&lt;/string></span>
+<span class="caretline"><span class="lineno"> 18 </span>  <span class="tag">&lt;string</span><span class="attribute"> </span><span class="warning"><span class="attribute">name</span>=<span class="value">"app_icon_description"</span></span>>App icon<span class="tag">&lt;/string></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 19 </span>  <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"speed_quote"</span> <span class="attribute">translatable</span>=<span class="value">"false"</span>>Fast or slow - it doesn\'t matter... You matter!<span class="tag">&lt;/string></span>
+<span class="lineno"> 20 </span>  <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"graph"</span>>Graph<span class="tag">&lt;/string></span>
+<span class="lineno"> 21 </span>
+</pre>
+
+<ul></ul><button id="Location5DivLink" onclick="reveal('Location5Div');" />+ 1 Additional Locations...</button>
+<div id="Location5Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/values-de/strings.xml">../../src/main/res/values-de/strings.xml</a>:19</span>
 </ul>
 </div><br/><br/>
 </div>
@@ -664,8 +680,61 @@ Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id
 Dismiss</button>            </div>
             </div>
           </section>
-<a name="MissingIssues"></a>
+<a name="Internationalization"></a>
+<a name="HardcodedText"></a>
 <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="card8" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Hardcoded text</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/layout/graph_activity.xml">../../src/main/res/layout/graph_activity.xml</a>:23</span>: <span class="message">[I18N] Hardcoded string "Graph", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 20 </span>        <span class="tag">&lt;TextView</span><span class="attribute">
+</span><span class="lineno"> 21 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
+<span class="lineno"> 22 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"match_parent"</span>
+<span class="caretline"><span class="lineno"> 23 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Graph"</span></span>/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 24 </span>
+<span class="lineno"> 25 </span>        <span class="tag">&lt;com.jjoe64.graphview.GraphView</span><span class="attribute">
+</span><span class="lineno"> 26 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/graph_view"</span>
+</pre>
+
+</div>
+<div class="metadata"><div class="explanation" id="explanationHardcodedText" style="display: none;">
+Hardcoding text attributes directly in layout files is bad for several reasons:<br/>
+<br/>
+* When creating configuration variations (for example for landscape or portrait)you have to repeat the actual text (and keep it up to date when making changes)<br/>
+<br/>
+* The application cannot be translated to other languages by just adding new translations for existing string resources.<br/>
+<br/>
+There are quickfixes to automatically extract this hardcoded string into a resource lookup.<br/><br/>To suppress this error, use the issue id "HardcodedText" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">HardcodedText</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Internationalization</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 5/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationHardcodedTextLink" onclick="reveal('explanationHardcodedText');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="card8Link" onclick="hideid('card8');">
+Dismiss</button>            </div>
+            </div>
+          </section>
+<a name="MissingIssues"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="card9" style="display: block;">
             <div class="mdl-card mdl-cell mdl-cell--12-col">
   <div class="mdl-card__title">
     <h2 class="mdl-card__title-text">Disabled Checks</h2>
@@ -907,12 +976,12 @@ To suppress this error, use the issue id "UnusedIds" as explained in the <a href
 </div>              </div>
               <div class="mdl-card__actions mdl-card--border">
 <button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="SuppressedIssuesLink" onclick="reveal('SuppressedIssues');">
-List Missing Issues</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="card8Link" onclick="hideid('card8');">
+List Missing Issues</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="card9Link" onclick="hideid('card9');">
 Dismiss</button>            </div>
             </div>
           </section>
 <a name="SuppressInfo"></a>
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="card9" style="display: block;">
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="card10" style="display: block;">
             <div class="mdl-card mdl-cell mdl-cell--12-col">
   <div class="mdl-card__title">
     <h2 class="mdl-card__title-text">Suppressing Warnings and Errors</h2>
