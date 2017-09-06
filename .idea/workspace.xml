@@ -2,13 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbdd3e53-ad84-417e-8810-8c476f794d7f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Speed-O-Meter/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/Speed-O-Meter/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Speed-O-Meter/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/Speed-O-Meter/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Speed-O-Meter/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/Speed-O-Meter/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Speed-O-Meter/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/Speed-O-Meter/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Speed-O-Meter/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Speed-O-Meter/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Speed-O-Meter/app/app.iml" afterPath="$PROJECT_DIR$/Speed-O-Meter/app/app.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/java/com/speedOMeter/speedOMeter/ActivityDrawer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/java/com/speedOMeter/speedOMeter/ActivitySettingsDrawer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/res/layout/content_settings_layout.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/java/com/speedOMeter/speedOMeter/DrawerActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/java/com/speedOMeter/speedOMeter/SettingsActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/res/layout/settings_activity.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Speed-O-Meter/app/build.gradle" afterPath="$PROJECT_DIR$/Speed-O-Meter/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Speed-O-Meter/local.properties" afterPath="$PROJECT_DIR$/Speed-O-Meter/local.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/java/com/speedOMeter/speedOMeter/GraphActivity.java" afterPath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/java/com/speedOMeter/speedOMeter/ActivityGraphDrawer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/java/com/speedOMeter/speedOMeter/SpeedTrackingActivity.java" afterPath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/java/com/speedOMeter/speedOMeter/ActivityTrackingDrawer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/java/com/speedOMeter/speedOMeter/StartActivity.java" afterPath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/java/com/speedOMeter/speedOMeter/ActivityStart.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/res/layout/appbar_layout.xml" afterPath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/res/layout/fragment_appbar_layout.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/res/layout/drawer_layout.xml" afterPath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/res/layout/activity_drawer_layout.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/res/layout/graph_activity.xml" afterPath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/res/layout/content_graph_layout.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/res/layout/nav_header_main.xml" afterPath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/res/layout/fragment_drawer_header_layout.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/res/layout/speed_tracking_activity.xml" afterPath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/res/layout/content_tracking_layout.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/res/layout/start_activity.xml" afterPath="$PROJECT_DIR$/Speed-O-Meter/app/src/main/res/layout/activity_start_layout.xml" />
     </list>
     <ignored path="Speed-o-meter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -183,7 +196,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />

@@ -12,8 +12,8 @@ public class Measurement {
 
     public Measurement(Location firstLocation, Location secondLocation, float seconds) {
         metersTraveled = firstLocation.distanceTo(secondLocation);
-        metersTraveled -= firstLocation.getAccuracy() / 2;
-        metersTraveled -= secondLocation.getAccuracy() / 2;
+        metersTraveled -= firstLocation.getAccuracy() / 4;
+        metersTraveled -= secondLocation.getAccuracy() / 4;
         metersTraveled = metersTraveled < 0 ? 0 : metersTraveled;
         //metersTraveled = getDistance(firstLocation.getLatitude(), firstLocation.getLongitude(), secondLocation.getLatitude(), secondLocation.getLongitude());
         this.seconds = seconds;
@@ -32,8 +32,8 @@ public class Measurement {
     }
 
     public double getSpeed(SpeedMeasurementType measurementTypes){
-        metersTraveled *= measurementTypes.getConversionFromMS();
-        return seconds == 0 ? metersTraveled : metersTraveled / seconds;
+        return (seconds == 0) ? (metersTraveled * measurementTypes.getConversionFromMS()) :
+                ((metersTraveled * measurementTypes.getConversionFromMS()) / seconds);
     }
 
 
