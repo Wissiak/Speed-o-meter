@@ -2,6 +2,7 @@ package com.speedOMeter.speedOMeter;
 
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
+import android.location.Location;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
@@ -21,6 +22,20 @@ import java.util.Random;
 public class SpeedTrackingActivity extends DrawerActivity {
     private SharedPreferenceHandler preferenceHandler = null;
     private boolean isTracking;
+    private GPSTracker tracker;
+    private Location lastLocation;
+    private Consumer consumer = new Consumer() {
+        @Override
+        void consume(Object o) {
+            if (o instanceof Location) {
+                if (lastLocation != null) {
+                    Measurement measurement = new Measurement(lastLocation, ((Location) o), (((Location) o).getTime() - lastLocation.getTime()) / 1000);
+                    preferenceHandler.setSpeed(measurement.getSpeed(preferenceHandler.getMeasurement()));
+                }
+                lastLocation = (Location) o;
+            }
+        }
+    };
 
     public SpeedTrackingActivity() {
         this.isTracking = true;
@@ -49,16 +64,17 @@ public class SpeedTrackingActivity extends DrawerActivity {
                         public void run() {
                             //Update speed every 1.5s
                             updateContent(preferenceHandler.getCurrentSpeed(), preferenceHandler.getAverageSpeed(), preferenceHandler.getMaxSpeed());
-                            preferenceHandler.setSpeed(new Random().nextFloat() * 200); //TODO: remove this
+                            //preferenceHandler.setSpeed(new Random().nextFloat() * 200); //TODO: remove this
                         }
                     });
                 }
             }
         }).start();
+        tracker = new GPSTracker(getApplicationContext(), SpeedTrackingActivity.this, consumer);
     }
 
     private void updateContent(float curSpeed, float averageSpeed, float maxSpeed) {
-        String measurement = preferenceHandler.getMeasurement();
+        String measurement = preferenceHandler.getMeasurement().getAbbreviation();
         TextView curText = (TextView) findViewById(R.id.cur_text);
         TextView avgText = (TextView) findViewById(R.id.avg_text);
         TextView maxText = (TextView) findViewById(R.id.max_text);
