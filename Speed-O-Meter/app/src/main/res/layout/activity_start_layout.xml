@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.speedOMeter.speedOMeter.StartActivity">
+    tools:context="com.speedOMeter.speedOMeter.ActivityStart">
 
     <FrameLayout
         android:layout_width="256dp"
@@ -24,7 +24,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:elevation="16dp"
             android:text="@string/start"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@android:color/white"

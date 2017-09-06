@@ -6,7 +6,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class StartActivity extends AppCompatActivity {
+public class ActivityStart extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +17,7 @@ public class StartActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(StartActivity.this, SpeedTrackingActivity.class);
+                Intent intent = new Intent(ActivityStart.this, ActivityTrackingDrawer.class);
                 startActivity(intent);
             }
         });

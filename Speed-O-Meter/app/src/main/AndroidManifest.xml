@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".StartActivity"
+            android:name=".ActivityStart"
             android:label="@string/app_name"
             android:launchMode="singleInstance"
             android:theme="@style/AppTheme.NoActionBar"> <!-- android:launchMode="singleInstance" -->
@@ -23,16 +23,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SpeedTrackingActivity"
+            android:name=".ActivityTrackingDrawer"
             android:launchMode="singleInstance"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".SettingsActivity"
+            android:name=".ActivitySettingsDrawer"
             android:label="@string/settings"
             android:launchMode="singleInstance"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".GraphActivity"
+            android:name=".ActivityGraphDrawer"
             android:label="@string/graph"
             android:launchMode="singleInstance"
             android:theme="@style/AppTheme.NoActionBar" />

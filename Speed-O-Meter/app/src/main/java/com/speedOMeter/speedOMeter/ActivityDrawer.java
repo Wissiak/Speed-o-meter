@@ -17,7 +17,7 @@ import android.widget.FrameLayout;
  * - call the createDrawer() method at the END of onCreate() method from subclass
  */
 
-public abstract class DrawerActivity extends AppCompatActivity {
+public abstract class ActivityDrawer extends AppCompatActivity {
     protected void createDrawer(int contentLayoutId) {
         setContentView(R.layout.activity_drawer_layout);
 
@@ -41,13 +41,13 @@ public abstract class DrawerActivity extends AppCompatActivity {
                 int id = item.getItemId();
                 Intent intent = null;
                 if (id == R.id.nav_home) {
-                    intent = new Intent(getApplicationContext(), StartActivity.class);
+                    intent = new Intent(getApplicationContext(), ActivityStart.class);
                 } else if (id == R.id.nav_track_speed) {
-                    intent = new Intent(getApplicationContext(), SpeedTrackingActivity.class);
+                    intent = new Intent(getApplicationContext(), ActivityTrackingDrawer.class);
                 } else if (id == R.id.nav_settings) {
-                    intent = new Intent(getApplicationContext(), SettingsActivity.class);
+                    intent = new Intent(getApplicationContext(), ActivitySettingsDrawer.class);
                 } else if (id == R.id.nav_graph) {
-                    intent = new Intent(getApplicationContext(), GraphActivity.class);
+                    intent = new Intent(getApplicationContext(), ActivityGraphDrawer.class);
                 }
                 if(intent != null) {
                     startActivity(intent);

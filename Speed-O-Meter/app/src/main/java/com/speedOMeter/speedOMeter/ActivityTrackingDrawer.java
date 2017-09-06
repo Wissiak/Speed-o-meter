@@ -17,7 +17,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SpeedTrackingActivity extends DrawerActivity {
+public class ActivityTrackingDrawer extends ActivityDrawer {
     private SharedPreferenceHandler preferenceHandler = null;
     private boolean isTracking;
     private GPSTracker tracker;
@@ -35,7 +35,7 @@ public class SpeedTrackingActivity extends DrawerActivity {
         }
     };
 
-    public SpeedTrackingActivity() {
+    public ActivityTrackingDrawer() {
         this.isTracking = true;
     }
 
@@ -68,7 +68,7 @@ public class SpeedTrackingActivity extends DrawerActivity {
                 }
             }
         }).start();
-        tracker = new GPSTracker(getApplicationContext(), SpeedTrackingActivity.this, consumer);
+        tracker = new GPSTracker(getApplicationContext(), ActivityTrackingDrawer.this, consumer);
     }
 
     private void updateContent(float curSpeed, float averageSpeed, float maxSpeed) {
