@@ -1,7 +1,0 @@
-#Wed Sep 06 15:36:34 CEST 2017
-base.0=S\:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_61e6240f7ab38c4081e8a47ded3f1fc99ea9769a
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=S\:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_8c0de96a1b266337b2b38fccf4f06b608c1b32b7\\classes.dex
-base.1=S\:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_8c0de96a1b266337b2b38fccf4f06b608c1b32b7
-file.0=S\:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_61e6240f7ab38c4081e8a47ded3f1fc99ea9769a\\classes.dex
