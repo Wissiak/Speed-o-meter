@@ -32,6 +32,9 @@ public class SharedPreferenceHandler {
         this.context = context;
         // All objects are from android.context.Context
         this.sharedPreferences = context.getSharedPreferences(PREFS, 0);
+    }
+
+    public void reset(){
         this.setSpeed(CURRENT_SPEED, 0);
         this.setSpeed(AVERAGE_SPEED, 0);
         this.setSpeed(SECONDS_TRAVLED, 0);
