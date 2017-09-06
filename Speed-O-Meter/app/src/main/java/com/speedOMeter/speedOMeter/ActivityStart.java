@@ -17,7 +17,7 @@ public class ActivityStart extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ActivityStart.this, ActivityTrackingDrawer.class);
+                Intent intent = new Intent(ActivityStart.this, ActivityTracking.class);
                 startActivity(intent);
             }
         });

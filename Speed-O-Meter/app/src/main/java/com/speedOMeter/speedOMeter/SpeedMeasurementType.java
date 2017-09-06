@@ -23,6 +23,4 @@ public enum SpeedMeasurementType {
     public String getAbbreviation(){
         return abbreviation;
     }
-
-
 }
