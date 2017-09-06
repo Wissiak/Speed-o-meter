@@ -13,8 +13,7 @@ import android.widget.FrameLayout;
 /**
  * To use this function you have to do the following steps:
  * - extend this class
- * - include the drawer_activity.xml in the current layout file
- * - call the createDrawer() method at the END of onCreate() method from subclass
+ * - execute createDrawer and pass as parameter the id of the layout
  */
 
 public abstract class ActivityDrawer extends AppCompatActivity {
@@ -43,11 +42,11 @@ public abstract class ActivityDrawer extends AppCompatActivity {
                 if (id == R.id.nav_home) {
                     intent = new Intent(getApplicationContext(), ActivityStart.class);
                 } else if (id == R.id.nav_track_speed) {
-                    intent = new Intent(getApplicationContext(), ActivityTrackingDrawer.class);
+                    intent = new Intent(getApplicationContext(), ActivityTracking.class);
                 } else if (id == R.id.nav_settings) {
-                    intent = new Intent(getApplicationContext(), ActivitySettingsDrawer.class);
+                    intent = new Intent(getApplicationContext(), ActivitySettings.class);
                 } else if (id == R.id.nav_graph) {
-                    intent = new Intent(getApplicationContext(), ActivityGraphDrawer.class);
+                    intent = new Intent(getApplicationContext(), ActivityGraph.class);
                 }
                 if(intent != null) {
                     startActivity(intent);

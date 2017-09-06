@@ -18,7 +18,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ActivityTrackingDrawer extends ActivityDrawer {
+public class ActivityTracking extends ActivityDrawer {
     private SharedPreferenceHandler preferenceHandler = null;
     private boolean isTracking;
     private GPSTracker tracker;
@@ -41,7 +41,7 @@ public class ActivityTrackingDrawer extends ActivityDrawer {
         }
     };
 
-    public ActivityTrackingDrawer() {
+    public ActivityTracking() {
         this.isTracking = true;
     }
 
@@ -77,7 +77,7 @@ public class ActivityTrackingDrawer extends ActivityDrawer {
                 }
             }
         }).start();
-        tracker = new GPSTracker(getApplicationContext(), ActivityTrackingDrawer.this, consumer);
+        tracker = new GPSTracker(getApplicationContext(), ActivityTracking.this, consumer);
     }
 
     private static double round(double d, int decimalPlace) {

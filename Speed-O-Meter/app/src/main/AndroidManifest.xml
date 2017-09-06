@@ -23,16 +23,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ActivityTrackingDrawer"
+            android:name=".ActivityTracking"
             android:launchMode="singleInstance"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ActivitySettingsDrawer"
+            android:name=".ActivitySettings"
             android:label="@string/settings"
             android:launchMode="singleInstance"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ActivityGraphDrawer"
+            android:name=".ActivityGraph"
             android:label="@string/graph"
             android:launchMode="singleInstance"
             android:theme="@style/AppTheme.NoActionBar" />

@@ -19,18 +19,7 @@
     <string name="app_icon_description">App icon</string>
     <string name="graph">Diagramm</string>
 
-
     <string name="title_location_permission">Standortermittlungsberechtigung</string>
     <string name="text_location_permission">Bitte aktivieren Sie den Standortermittlungsdienst, so dass wir Ihre Geschwindigkeit ermittelen können</string>
 
-    <string-array name="languages_array">
-        <item>Deutsch</item>
-        <item>Englisch</item>
-    </string-array>
-
-    <string-array name="measurements_array">
-        <item>m/s</item>
-        <item>km/h</item>
-    </string-array>
-    <string name="ok">OK</string>
 </resources>
