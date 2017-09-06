@@ -1,7 +1,7 @@
-#Sun Sep 03 17:25:57 CEST 2017
-base.0=D\:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_110b7556234ac393e40b60fbdd820aeff8018301
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=D\:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2f7645d81b4fbdb8350e7b4c5b8f92f21763348e\\classes.dex
-base.1=D\:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2f7645d81b4fbdb8350e7b4c5b8f92f21763348e
-file.0=D\:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_110b7556234ac393e40b60fbdd820aeff8018301\\classes.dex
+#Wed Sep 06 08:59:51 CEST 2017
+base.0=S\:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_61e6240f7ab38c4081e8a47ded3f1fc99ea9769a
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=S\:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_8c0de96a1b266337b2b38fccf4f06b608c1b32b7\\classes.dex
+base.1=S\:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_8c0de96a1b266337b2b38fccf4f06b608c1b32b7
+file.0=S\:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_61e6240f7ab38c4081e8a47ded3f1fc99ea9769a\\classes.dex

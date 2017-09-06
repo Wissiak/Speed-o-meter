@@ -3,30 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="S:\new\Speed-o-meter\Speed-O-Meter\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_110b7556234ac393e40b60fbdd820aeff8018301\classes.dex" />
+        <dex dex="S:\new\Speed-o-meter\Speed-O-Meter\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_8c0de96a1b266337b2b38fccf4f06b608c1b32b7\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="S:\new\Speed-o-meter\Speed-O-Meter\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="67ad0b5413c37ce9b28c576edf780ebba949d199">
-        <dex dex="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_2f7645d81b4fbdb8350e7b4c5b8f92f21763348e\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Patrick Wissiak\.android\build-cache\8da3872b79b7be5bb1b256f964b25adccc5503cf\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="987adec819c9a98faf215814f41195da48fc724e">
-        <dex dex="D:\Android\school\SpeedOMeter\Speed-O-Meter\app\build\intermediates\pre-dexed\debug\classes_8fb2842fa625a69d34af6e1c97e3ef0a5e35312d.jar" />
+        sha1="21650251f0b83c4e1aa9f229698fb644f7386642">
+        <dex dex="S:\new\Speed-o-meter\Speed-O-Meter\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_61e6240f7ab38c4081e8a47ded3f1fc99ea9769a\classes.dex" />
     </item>
 
 </items>

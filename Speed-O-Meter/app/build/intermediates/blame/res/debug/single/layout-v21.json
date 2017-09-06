@@ -1,18 +1,18 @@
 [
     {
-        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout-v21\\notification_action.xml"
+        "merged": "S:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\serge\\.android\\build-cache\\fcbe9e4b3d783d12903ee4b8e7c58450e6c81502\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
-        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+        "merged": "S:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\serge\\.android\\build-cache\\fcbe9e4b3d783d12903ee4b8e7c58450e6c81502\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+        "merged": "S:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\serge\\.android\\build-cache\\fcbe9e4b3d783d12903ee4b8e7c58450e6c81502\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
-        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Patrick Wissiak\\.android\\build-cache\\4ad226db96dedc4ce8b3e049c0387ee34dce9678\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+        "merged": "S:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\serge\\.android\\build-cache\\fcbe9e4b3d783d12903ee4b8e7c58450e6c81502\\output\\res\\layout-v21\\notification_action.xml"
     }
 ]

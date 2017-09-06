@@ -29,24 +29,24 @@ public class SharedPreferenceHandler {
         this.setAmountOfMeasurements(0);
     }
 
-    public void setMeasurement(String measurement) {
+    public void setMeasurement(SpeedMeasurementType measurement) {
         // We need an Editor object to make preference changes.
         SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putString(MEASUREMENT, measurement);
+        editor.putString(MEASUREMENT, measurement.name());
 
         // Apply the edits!
         editor.apply();
     }
 
-    public String getMeasurement() {
-        return sharedPreferences.getString(MEASUREMENT, "km/h");
+    public SpeedMeasurementType getMeasurement() {
+        return  SpeedMeasurementType.valueOf(sharedPreferences.getString(MEASUREMENT, "KMH"));
     }
 
     public float getCurrentSpeed() {
         return sharedPreferences.getFloat(CURRENT_SPEED, 0);
     }
 
-    public void setSpeed(float currentSpeed) {
+    public void setSpeed(double currentSpeed) {
         this.increaseAmountOfMeasurements();
         this.setTotalSpeed(currentSpeed);
         this.setAverage();
@@ -58,7 +58,7 @@ public class SharedPreferenceHandler {
         return sharedPreferences.getFloat(TOTAL_SPEED, 0);
     }
 
-    public void setTotalSpeed(float currentSpeed) {
+    public void setTotalSpeed(double currentSpeed) {
         this.setSpeed(TOTAL_SPEED, getTotalSpeed() + currentSpeed);
     }
 
@@ -91,16 +91,16 @@ public class SharedPreferenceHandler {
         return sharedPreferences.getFloat(MAX_SPEED, 0);
     }
 
-    private void setMaxSpeed(float currentSpeed) {
+    private void setMaxSpeed(double currentSpeed) {
         if(currentSpeed > this.getMaxSpeed()) {
             this.setSpeed(MAX_SPEED, currentSpeed);
         }
     }
 
-    private void setSpeed(String type, float value) {
+    private void setSpeed(String type, double value) {
         // We need an Editor object to make preference changes.
         SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putFloat(type, value);
+        editor.putFloat(type, ((float) value));
 
         editor.apply();
     }

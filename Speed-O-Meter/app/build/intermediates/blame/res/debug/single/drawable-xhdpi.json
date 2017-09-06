@@ -1,26 +1,26 @@
 [
     {
-        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_stop.png",
-        "source": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_stop.png"
+        "merged": "S:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_stop.png",
+        "source": "S:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_stop.png"
     },
     {
-        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_menu_speed.png",
-        "source": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_menu_speed.png"
+        "merged": "S:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_menu_graph.png",
+        "source": "S:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_menu_graph.png"
     },
     {
-        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_menu_home.png",
-        "source": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_menu_home.png"
+        "merged": "S:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_start.png",
+        "source": "S:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_start.png"
     },
     {
-        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_menu_settings.png",
-        "source": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_menu_settings.png"
+        "merged": "S:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_menu_home.png",
+        "source": "S:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_menu_home.png"
     },
     {
-        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_menu_graph.png",
-        "source": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_menu_graph.png"
+        "merged": "S:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_menu_speed.png",
+        "source": "S:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_menu_speed.png"
     },
     {
-        "merged": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_start.png",
-        "source": "D:\\Android\\school\\SpeedOMeter\\Speed-O-Meter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_start.png"
+        "merged": "S:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_menu_settings.png",
+        "source": "S:\\new\\Speed-o-meter\\Speed-O-Meter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_menu_settings.png"
     }
 ]

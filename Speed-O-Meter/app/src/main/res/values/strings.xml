@@ -11,6 +11,7 @@
     <string name="measure_speed">Measure speed</string>
     <string name="track_speed">Track speed</string>
 
+    <string name="ok">Ok</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="home">Home</string>
@@ -18,6 +19,9 @@
     <string name="app_icon_description">App icon</string>
     <string name="speed_quote" translatable="false">Fast or slow - it doesn\'t matter... You matter!</string>
     <string name="graph">Graph</string>
+
+    <string name="title_location_permission">Location Permission Request</string>
+    <string name="text_location_permission">Please enable Location services, so that we can calculate your speed</string>
 
     <string-array name="languages_array">
         <item>English</item>
