@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/layout_speed_tracking_activity"
+    android:id="@+id/layout_speed_tracking_content"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.speedOMeter.speedOMeter.SpeedTrackingActivity">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:id="@+id/speed_tracking_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="?attr/actionBarSize"
-        android:orientation="vertical"/>
+        android:orientation="vertical" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/action_stop_tracking"
@@ -20,7 +18,5 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         android:src="@drawable/ic_stop" />
-
-    <include layout="@layout/drawer_layout" />
 
 </android.support.design.widget.CoordinatorLayout>

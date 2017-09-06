@@ -8,7 +8,6 @@ import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.content.res.ResourcesCompat;
-import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.GridView;
@@ -17,7 +16,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class SpeedTrackingActivity extends DrawerActivity {
     private SharedPreferenceHandler preferenceHandler = null;
@@ -87,9 +85,7 @@ public class SpeedTrackingActivity extends DrawerActivity {
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.speed_tracking_activity);
-        setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
-
+        this.createDrawer(R.layout.content_tracking_layout);
         this.setContent();
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.action_stop_tracking);
@@ -108,8 +104,6 @@ public class SpeedTrackingActivity extends DrawerActivity {
                 fab.setImageDrawable(drawable);
             }
         });
-
-        this.createDrawer();
     }
 
     @Override

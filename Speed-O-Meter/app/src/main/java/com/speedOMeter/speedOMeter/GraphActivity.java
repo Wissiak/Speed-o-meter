@@ -1,7 +1,6 @@
 package com.speedOMeter.speedOMeter;
 
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.GridLabelRenderer;
@@ -13,8 +12,7 @@ public class GraphActivity extends DrawerActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.graph_activity);
-        setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
+        this.createDrawer(R.layout.content_graph_layout);
 
         GraphView graph = (GraphView) findViewById(R.id.graph_view);
         GridLabelRenderer gridLabel = graph.getGridLabelRenderer();
@@ -25,7 +23,5 @@ public class GraphActivity extends DrawerActivity {
                 new DataPoint(2, 3)
         });
         graph.addSeries(series);
-
-        this.createDrawer();
     }
 }

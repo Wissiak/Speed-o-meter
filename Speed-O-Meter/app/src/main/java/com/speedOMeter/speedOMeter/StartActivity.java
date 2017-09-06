@@ -4,18 +4,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-
-import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 public class StartActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.start_activity);
+        setContentView(R.layout.activity_start_layout);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab_start);
         fab.setOnClickListener(new View.OnClickListener() {
