@@ -12,11 +12,11 @@ public class SharedPreferenceHandler {
     private static final String SETTINGS_LANGUAGE = "settings-language";
     private static final String SETTINGS_MEASUREMENT = "settings-measurement";
     private static final String MEASUREMENT = "measurement";
-    private static final String AMOUNT_OF_MEASUREMENTS = "amount-of-measurements";
     private static final String CURRENT_SPEED = "current-speed";
     private static final String AVERAGE_SPEED = "average-speed";
+    private static final String METERS_TRAVLED = "meters-traveled";
+    private static final String SECONDS_TRAVLED = "seconds-traveled";
     private static final String MAX_SPEED = "max-speed";
-    private static final String TOTAL_SPEED = "total-speed";
     private final SharedPreferences sharedPreferences;
 
     public SharedPreferenceHandler(Context context) {
@@ -24,9 +24,9 @@ public class SharedPreferenceHandler {
         this.sharedPreferences = context.getSharedPreferences(PREFS, 0);
         this.setSpeed(CURRENT_SPEED, 0);
         this.setSpeed(AVERAGE_SPEED, 0);
+        this.setSpeed(SECONDS_TRAVLED, 0);
+        this.setSpeed(METERS_TRAVLED, 0);
         this.setSpeed(MAX_SPEED, 0);
-        this.setSpeed(TOTAL_SPEED, 0);
-        this.setAmountOfMeasurements(0);
     }
 
     public void setMeasurement(SpeedMeasurementType measurement) {
@@ -46,61 +46,40 @@ public class SharedPreferenceHandler {
         return sharedPreferences.getFloat(CURRENT_SPEED, 0);
     }
 
-    public void setSpeed(double currentSpeed) {
-        this.increaseAmountOfMeasurements();
-        this.setTotalSpeed(currentSpeed);
-        this.setAverage();
-        this.setMaxSpeed(currentSpeed);
-        this.setSpeed(CURRENT_SPEED, currentSpeed);
+    public void setSpeed(Measurement measurement) {
+        this.setAverage(measurement);
+        this.setMaxSpeed((float) measurement.getSpeed(SpeedMeasurementType.MS));
+        this.setSpeed(CURRENT_SPEED, (float) measurement.getSpeed(SpeedMeasurementType.MS));
     }
 
-    public float getTotalSpeed() {
-        return sharedPreferences.getFloat(TOTAL_SPEED, 0);
-    }
-
-    public void setTotalSpeed(double currentSpeed) {
-        this.setSpeed(TOTAL_SPEED, getTotalSpeed() + currentSpeed);
-    }
-
-    private int getAmountOfMeasurements() {
-        return sharedPreferences.getInt(AMOUNT_OF_MEASUREMENTS, 0);
-    }
-
-    private void increaseAmountOfMeasurements() {
-        int amountOfMeasurements = this.getAmountOfMeasurements() + 1;
-        this.setAmountOfMeasurements(amountOfMeasurements);
-    }
-
-    public void setAmountOfMeasurements(int amountOfMeasurements) {
-        SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putInt(AMOUNT_OF_MEASUREMENTS, amountOfMeasurements);
-
-        editor.apply();
-    }
 
     public float getAverageSpeed() {
-        return sharedPreferences.getFloat(AVERAGE_SPEED, 0);
+        return getSpeed(SECONDS_TRAVLED) < 1 ? 0 : (getSpeed(METERS_TRAVLED) / sharedPreferences.getFloat(SECONDS_TRAVLED, 1));
     }
 
-    private void setAverage() {
-        float average = this.getTotalSpeed() / getAmountOfMeasurements();
-        this.setSpeed(AVERAGE_SPEED, average);
+    private void setAverage(Measurement measurement) {
+        this.setSpeed(METERS_TRAVLED, (float) (this.getSpeed(METERS_TRAVLED) + measurement.getDistance()));
+        this.setSpeed(SECONDS_TRAVLED, (float) (this.getSpeed(SECONDS_TRAVLED) + measurement.getTime()));
+    }
+
+    private float getSpeed(String type){
+        return sharedPreferences.getFloat(type, 0);
     }
 
     public float getMaxSpeed() {
         return sharedPreferences.getFloat(MAX_SPEED, 0);
     }
 
-    private void setMaxSpeed(double currentSpeed) {
+    private void setMaxSpeed(float currentSpeed) {
         if(currentSpeed > this.getMaxSpeed()) {
             this.setSpeed(MAX_SPEED, currentSpeed);
         }
     }
 
-    private void setSpeed(String type, double value) {
+    private void setSpeed(String type, float value) {
         // We need an Editor object to make preference changes.
         SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putFloat(type, ((float) value));
+        editor.putFloat(type, value);
 
         editor.apply();
     }

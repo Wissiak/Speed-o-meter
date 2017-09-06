@@ -15,9 +15,9 @@ import android.widget.GridView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class SpeedTrackingActivity extends DrawerActivity {
     private SharedPreferenceHandler preferenceHandler = null;
@@ -30,7 +30,12 @@ public class SpeedTrackingActivity extends DrawerActivity {
             if (o instanceof Location) {
                 if (lastLocation != null) {
                     Measurement measurement = new Measurement(lastLocation, ((Location) o), (((Location) o).getTime() - lastLocation.getTime()) / 1000);
-                    preferenceHandler.setSpeed(measurement.getSpeed(preferenceHandler.getMeasurement()));
+                    if(measurement.getSpeed(preferenceHandler.getMeasurement()) == 0){
+                        o = lastLocation;
+                    }else {
+                        preferenceHandler.setSpeed(measurement);
+                    }
+
                 }
                 lastLocation = (Location) o;
             }
@@ -63,6 +68,9 @@ public class SpeedTrackingActivity extends DrawerActivity {
                     handler.post(new Runnable(){
                         public void run() {
                             //Update speed every 1.5s
+                            if(tracker != null) {
+                                tracker.updateLocation();
+                            }
                             updateContent(preferenceHandler.getCurrentSpeed(), preferenceHandler.getAverageSpeed(), preferenceHandler.getMaxSpeed());
                             //preferenceHandler.setSpeed(new Random().nextFloat() * 200); //TODO: remove this
                         }
@@ -73,14 +81,20 @@ public class SpeedTrackingActivity extends DrawerActivity {
         tracker = new GPSTracker(getApplicationContext(), SpeedTrackingActivity.this, consumer);
     }
 
+    private static double round(double d, int decimalPlace) {
+        BigDecimal bd = new BigDecimal(Double.toString(d));
+        bd = bd.setScale(decimalPlace, BigDecimal.ROUND_HALF_UP);
+        return bd.doubleValue();
+    }
+
     private void updateContent(float curSpeed, float averageSpeed, float maxSpeed) {
         String measurement = preferenceHandler.getMeasurement().getAbbreviation();
         TextView curText = (TextView) findViewById(R.id.cur_text);
         TextView avgText = (TextView) findViewById(R.id.avg_text);
         TextView maxText = (TextView) findViewById(R.id.max_text);
-        curText.setText(curSpeed + "\n" + measurement);
-        avgText.setText(averageSpeed + "\n" + measurement);
-        maxText.setText(maxSpeed + "\n" + measurement);
+        curText.setText(round(curSpeed * preferenceHandler.getMeasurement().getConversionFromMS(), 1) + "\n" + measurement);
+        avgText.setText(round(averageSpeed * preferenceHandler.getMeasurement().getConversionFromMS(), 1) + "\n" + measurement);
+        maxText.setText(round(maxSpeed * preferenceHandler.getMeasurement().getConversionFromMS(), 1) + "\n" + measurement);
     }
 
     @Override
