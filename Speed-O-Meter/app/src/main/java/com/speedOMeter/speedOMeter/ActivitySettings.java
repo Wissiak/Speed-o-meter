@@ -1,6 +1,7 @@
 package com.speedOMeter.speedOMeter;
 
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -19,7 +20,7 @@ public class ActivitySettings extends ActivityDrawer {
         final SharedPreferenceHandler sharedPreferenceHandler = new SharedPreferenceHandler(getApplicationContext());
 
         setMeasurementSpinner(sharedPreferenceHandler);
-        Button resetButton = (Button) findViewById(R.id.reset_button);
+        FloatingActionButton resetButton = (FloatingActionButton) findViewById(R.id.reset_button);
         resetButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
