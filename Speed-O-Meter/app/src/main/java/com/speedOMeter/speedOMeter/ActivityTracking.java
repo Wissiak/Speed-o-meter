@@ -14,6 +14,7 @@ import android.widget.GridView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,7 +29,11 @@ public class ActivityTracking extends ActivityDrawer {
             if (o instanceof Location) {
                 if (lastLocation != null) {
                     Measurement measurement = new Measurement(lastLocation, ((Location) o), (((Location) o).getTime() - lastLocation.getTime()) / 1000);
-                    preferenceHandler.setSpeed(measurement.getSpeed(preferenceHandler.getMeasurement()));
+                    if(measurement.getSpeed(preferenceHandler.getMeasurement()) == 0){
+                        o = lastLocation;
+                    }else {
+                        preferenceHandler.setSpeed(measurement);
+                    }
                 }
                 lastLocation = (Location) o;
             }
@@ -61,6 +66,9 @@ public class ActivityTracking extends ActivityDrawer {
                     handler.post(new Runnable(){
                         public void run() {
                             //Update speed every 1.5s
+                            if(tracker != null) {
+                                tracker.updateLocation();
+                            }
                             updateContent(preferenceHandler.getCurrentSpeed(), preferenceHandler.getAverageSpeed(), preferenceHandler.getMaxSpeed());
                             //preferenceHandler.setSpeed(new Random().nextFloat() * 200); //TODO: remove this
                         }
@@ -71,14 +79,20 @@ public class ActivityTracking extends ActivityDrawer {
         tracker = new GPSTracker(getApplicationContext(), ActivityTracking.this, consumer);
     }
 
+    private static double round(double d, int decimalPlace) {
+        BigDecimal bd = new BigDecimal(Double.toString(d));
+        bd = bd.setScale(decimalPlace, BigDecimal.ROUND_HALF_UP);
+        return bd.doubleValue();
+    }
+
     private void updateContent(float curSpeed, float averageSpeed, float maxSpeed) {
         String measurement = preferenceHandler.getMeasurement().getAbbreviation();
         TextView curText = (TextView) findViewById(R.id.cur_text);
         TextView avgText = (TextView) findViewById(R.id.avg_text);
         TextView maxText = (TextView) findViewById(R.id.max_text);
-        curText.setText(curSpeed + "\n" + measurement);
-        avgText.setText(averageSpeed + "\n" + measurement);
-        maxText.setText(maxSpeed + "\n" + measurement);
+        curText.setText(round(curSpeed * preferenceHandler.getMeasurement().getConversionFromMS(), 1) + "\n" + measurement);
+        avgText.setText(round(averageSpeed * preferenceHandler.getMeasurement().getConversionFromMS(), 1) + "\n" + measurement);
+        maxText.setText(round(maxSpeed * preferenceHandler.getMeasurement().getConversionFromMS(), 1) + "\n" + measurement);
     }
 
     @Override
@@ -87,6 +101,13 @@ public class ActivityTracking extends ActivityDrawer {
 
         this.createDrawer(R.layout.content_tracking_layout);
         this.setContent();
+        FloatingActionButton action = (FloatingActionButton) findViewById(R.id.action_reset_data);
+        action.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                preferenceHandler.reset();
+            }
+        });
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.action_stop_tracking);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -109,14 +130,12 @@ public class ActivityTracking extends ActivityDrawer {
     @Override
     protected void onResume() {
         super.onResume();
-
         this.isTracking = true;
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-
         this.isTracking = false;
     }
 
@@ -184,5 +203,11 @@ public class ActivityTracking extends ActivityDrawer {
         gridView.setBackgroundColor(ResourcesCompat.getColor(getResources(), colorId, null));
         gridView.setGravity(Gravity.CENTER);
         return gridView;
+    }
+
+    @Override
+    public void onDestroy(){
+        super.onDestroy();
+        preferenceHandler.reset();
     }
 }

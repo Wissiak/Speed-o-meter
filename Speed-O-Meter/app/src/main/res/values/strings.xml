@@ -22,5 +22,6 @@
 
     <string name="title_location_permission">Location Permission Request</string>
     <string name="text_location_permission">Please enable Location services, so that we can calculate your speed</string>
+    <string name="reset">Reset</string>
 
 </resources>

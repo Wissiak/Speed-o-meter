@@ -35,5 +35,7 @@ public class ActivityStart extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_start_layout);
+
+        new SharedPreferenceHandler(getApplicationContext()).reset();
     }
 }

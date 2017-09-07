@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 
 import java.util.Arrays;
@@ -18,7 +19,13 @@ public class ActivitySettings extends ActivityDrawer {
         final SharedPreferenceHandler sharedPreferenceHandler = new SharedPreferenceHandler(getApplicationContext());
 
         setMeasurementSpinner(sharedPreferenceHandler);
-
+        Button resetButton = (Button) findViewById(R.id.reset_button);
+        resetButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sharedPreferenceHandler.reset();
+            }
+        });
         setLanguagesSpinner(sharedPreferenceHandler);
     }
 

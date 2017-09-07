@@ -6,7 +6,8 @@
     android:layout_marginLeft="@dimen/layout_inset"
     android:layout_marginRight="@dimen/layout_inset"
     android:layout_marginTop="?attr/actionBarSize"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:weightSum="1">
 
     <TextView
         android:layout_width="wrap_content"
@@ -33,5 +34,12 @@
         android:id="@+id/measurements_spinner"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"
+        android:layout_weight="0.25" />
 
 </LinearLayout>

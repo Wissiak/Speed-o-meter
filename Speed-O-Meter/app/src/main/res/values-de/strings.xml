@@ -21,5 +21,6 @@
 
     <string name="title_location_permission">Standortermittlungsberechtigung</string>
     <string name="text_location_permission">Bitte aktivieren Sie den Standortermittlungsdienst, so dass wir Ihre Geschwindigkeit ermittelen können</string>
+    <string name="reset">Zurücksetzten</string>
 
 </resources>
