@@ -101,6 +101,13 @@ public class ActivityTracking extends ActivityDrawer {
 
         this.createDrawer(R.layout.content_tracking_layout);
         this.setContent();
+        FloatingActionButton action = (FloatingActionButton) findViewById(R.id.action_reset_data);
+        action.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                preferenceHandler.reset();
+            }
+        });
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.action_stop_tracking);
         fab.setOnClickListener(new View.OnClickListener() {
