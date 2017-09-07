@@ -2,6 +2,7 @@ package com.speedOMeter.speedOMeter;
 
 import android.content.Intent;
 import android.graphics.drawable.Animatable;
+import android.graphics.drawable.AnimatedVectorDrawable;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.ScaleDrawable;
@@ -18,11 +19,6 @@ public class ActivityStart extends AppCompatActivity {
     public void onStart() {
         super.onStart();
 
-        ImageView cloud = (ImageView) findViewById(R.id.image_cloud);
-        Drawable drawable = cloud.getDrawable();
-        if (drawable instanceof Animatable) {
-            ((Animatable) drawable).start();
-        }
         (new Handler()).postDelayed(new Runnable() {
             @Override
             public void run() {

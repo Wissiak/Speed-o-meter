@@ -10,7 +10,8 @@
         android:layout_height="match_parent"
         android:layout_gravity="center"
         app:layout_anchorGravity="center"
-        app:srcCompat="@drawable/ic_start_cloud" />
+        app:srcCompat="@drawable/ic_start_cloud"
+        android:contentDescription="Logo" />
 
     <ProgressBar
         android:id="@+id/ctrlActivityIndicator"
