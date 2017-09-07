@@ -15,8 +15,6 @@ public class SharedPreferenceHandler {
     private static final String PREFS = "speed-o-meter-preferences-file";
     private static final String SETTINGS_LANGUAGE = "settings-language";
     private static final String SETTINGS_MEASUREMENT = "settings-measurement";
-    private static final String AMOUNT_OF_MEASUREMENTS = "amount-of-measurements";
-    private static final String MEASUREMENT = "measurement";
     private static final String CURRENT_SPEED = "current-speed";
     private static final String AVERAGE_SPEED = "average-speed";
     private static final String METERS_TRAVELED = "meters-traveled";

@@ -123,14 +123,12 @@ public class ActivityTracking extends ActivityDrawer {
     @Override
     protected void onResume() {
         super.onResume();
-
         this.isTracking = true;
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-
         this.isTracking = false;
     }
 

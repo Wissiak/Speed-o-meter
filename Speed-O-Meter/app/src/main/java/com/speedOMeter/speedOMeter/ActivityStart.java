@@ -11,6 +11,10 @@ public class ActivityStart extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        SharedPreferenceHandler preferenceHandler = new SharedPreferenceHandler(getApplicationContext());
+        preferenceHandler.reset();
+
         setContentView(R.layout.activity_start_layout);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab_start);
