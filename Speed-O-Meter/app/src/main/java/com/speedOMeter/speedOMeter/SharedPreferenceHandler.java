@@ -1,10 +1,13 @@
 package com.speedOMeter.speedOMeter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.os.Build;
 
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Locale;
 
 /**
@@ -20,6 +23,8 @@ public class SharedPreferenceHandler {
     private static final String METERS_TRAVELED = "meters-traveled";
     private static final String SECONDS_TRAVELED = "seconds-traveled";
     private static final String MAX_SPEED = "max-speed";
+    private static final String POINTS = "points";
+    private static final String COUNTER = "points";
     private final SharedPreferences sharedPreferences;
     private Context context;
 
@@ -35,6 +40,9 @@ public class SharedPreferenceHandler {
         this.setSpeed(SECONDS_TRAVELED, 0);
         this.setSpeed(METERS_TRAVELED, 0);
         this.setSpeed(MAX_SPEED, 0);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putInt(COUNTER, 0);
+        editor.apply();
     }
 
     public void setLocale(String lang) {
@@ -49,6 +57,15 @@ public class SharedPreferenceHandler {
         }
         //context.getResources().getConfiguration().updateFrom(config);
         context.getResources().updateConfiguration(config, context.getResources().getDisplayMetrics());
+    }
+
+    public List<Float> getMeasurements(){
+        int counter = sharedPreferences.getInt(COUNTER, 0);
+        List<Float> list = new LinkedList();
+        for (int i = 0; i < counter; i++) {
+            list.add(sharedPreferences.getFloat(POINTS + Integer.toString(i), 0));
+        }
+        return list;
     }
 
     public void setLanguage(Language language) {
@@ -76,6 +93,14 @@ public class SharedPreferenceHandler {
         return SpeedMeasurementType.valueOf(sharedPreferences.getString(SETTINGS_MEASUREMENT, "KMH"));
     }
 
+    public void addFloatToList(float measurement){
+        int counter = sharedPreferences.getInt(COUNTER, 0);
+        setSpeed(POINTS + Integer.toString(counter), measurement);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putInt(COUNTER, counter+1);
+        editor.apply();
+    }
+
     public float getCurrentSpeed() {
         return sharedPreferences.getFloat(CURRENT_SPEED, 0);
     }
@@ -84,8 +109,8 @@ public class SharedPreferenceHandler {
         this.setAverage(measurement);
         this.setMaxSpeed((float) measurement.getSpeed(SpeedMeasurementType.MS));
         this.setSpeed(CURRENT_SPEED, (float) measurement.getSpeed(SpeedMeasurementType.MS));
+        this.addFloatToList(getAverageSpeed());
     }
-
 
     public float getAverageSpeed() {
         return getSpeed(SECONDS_TRAVELED) < 1 ? 0 : (getSpeed(METERS_TRAVELED) / sharedPreferences.getFloat(SECONDS_TRAVELED, 1));

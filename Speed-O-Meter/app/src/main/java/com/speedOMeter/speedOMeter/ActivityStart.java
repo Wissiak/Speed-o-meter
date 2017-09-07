@@ -12,8 +12,7 @@ public class ActivityStart extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        SharedPreferenceHandler preferenceHandler = new SharedPreferenceHandler(getApplicationContext());
-        preferenceHandler.reset();
+        new SharedPreferenceHandler(getApplicationContext()).reset();
 
         setContentView(R.layout.activity_start_layout);
 
