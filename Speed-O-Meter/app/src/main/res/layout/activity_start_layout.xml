@@ -4,28 +4,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <FrameLayout
-        android:layout_width="256dp"
-        android:layout_height="256dp"
+    <ImageView
+        android:id="@+id/image_cloud"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_gravity="center"
-        app:layout_anchorGravity="center">
+        app:layout_anchorGravity="center"
+        app:srcCompat="@drawable/ic_start_cloud" />
 
-        <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fab_start"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="@dimen/fab_margin"
-            app:layout_anchor="@+id/include" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:elevation="16dp"
-            android:text="@string/start"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="@android:color/white"
-            android:textSize="48sp" />
-    </FrameLayout>
+    <ProgressBar
+        android:id="@+id/ctrlActivityIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="@dimen/layout_inset"
+        android:indeterminateOnly="true"
+        android:keepScreenOn="true"
+        app:layout_anchorGravity="center|bottom" />
 
 </android.support.design.widget.CoordinatorLayout>

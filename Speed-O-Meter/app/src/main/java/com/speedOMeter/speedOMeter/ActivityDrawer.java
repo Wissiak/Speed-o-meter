@@ -39,9 +39,7 @@ public abstract class ActivityDrawer extends AppCompatActivity {
                 // Handle navigation view item clicks here.
                 int id = item.getItemId();
                 Intent intent = null;
-                if (id == R.id.nav_home) {
-                    intent = new Intent(getApplicationContext(), ActivityStart.class);
-                } else if (id == R.id.nav_track_speed) {
+                if (id == R.id.nav_track_speed) {
                     intent = new Intent(getApplicationContext(), ActivityTracking.class);
                 } else if (id == R.id.nav_settings) {
                     intent = new Intent(getApplicationContext(), ActivitySettings.class);

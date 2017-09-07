@@ -38,6 +38,7 @@ public class SharedPreferenceHandler {
     }
 
     public void setLocale(String lang) {
+        //TODO: doesn't work - fix it
         //lang == en || lang == de
         Locale locale = new Locale(lang);
         Locale.setDefault(locale);
@@ -47,8 +48,7 @@ public class SharedPreferenceHandler {
         } else {
             config.locale = locale;
         }
-        //context.getResources().getConfiguration().updateFrom(config);
-        context.getResources().updateConfiguration(config, context.getResources().getDisplayMetrics());
+        context.getResources().getConfiguration().updateFrom(config);
     }
 
     public void setLanguage(Language language) {

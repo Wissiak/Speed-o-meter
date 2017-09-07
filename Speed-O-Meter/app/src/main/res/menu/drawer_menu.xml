@@ -3,10 +3,6 @@
     <item android:title="@string/content">
         <menu>
             <item
-                android:id="@+id/nav_home"
-                android:icon="@drawable/ic_menu_home"
-                android:title="@string/home" />
-            <item
                 android:id="@+id/nav_track_speed"
                 android:icon="@drawable/ic_menu_speed"
                 android:title="@string/track_speed" />
