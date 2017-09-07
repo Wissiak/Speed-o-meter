@@ -34,7 +34,6 @@ public class ActivityTracking extends ActivityDrawer {
                     }else {
                         preferenceHandler.setSpeed(measurement);
                     }
-
                 }
                 lastLocation = (Location) o;
             }
@@ -199,5 +198,11 @@ public class ActivityTracking extends ActivityDrawer {
         gridView.setBackgroundColor(ResourcesCompat.getColor(getResources(), colorId, null));
         gridView.setGravity(Gravity.CENTER);
         return gridView;
+    }
+
+    @Override
+    public void onDestroy(){
+        super.onDestroy();
+        preferenceHandler.reset();
     }
 }

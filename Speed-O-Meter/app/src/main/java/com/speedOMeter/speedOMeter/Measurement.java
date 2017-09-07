@@ -15,7 +15,6 @@ public class Measurement {
         metersTraveled -= firstLocation.getAccuracy() / 4;
         metersTraveled -= secondLocation.getAccuracy() / 4;
         metersTraveled = metersTraveled < 0 ? 0 : metersTraveled;
-        //metersTraveled = getDistance(firstLocation.getLatitude(), firstLocation.getLongitude(), secondLocation.getLatitude(), secondLocation.getLongitude());
         this.seconds = seconds;
     }
 
@@ -35,7 +34,6 @@ public class Measurement {
         return (seconds == 0) ? (metersTraveled * measurementTypes.getConversionFromMS()) :
                 ((metersTraveled * measurementTypes.getConversionFromMS()) / seconds);
     }
-
 
     public double getTime() {
         return seconds;

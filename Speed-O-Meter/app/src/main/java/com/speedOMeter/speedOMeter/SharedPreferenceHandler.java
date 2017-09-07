@@ -1,12 +1,9 @@
 package com.speedOMeter.speedOMeter;
 
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
-import android.content.res.Resources;
 import android.os.Build;
-import android.util.DisplayMetrics;
 
 import java.util.Locale;
 
@@ -22,8 +19,8 @@ public class SharedPreferenceHandler {
     private static final String MEASUREMENT = "measurement";
     private static final String CURRENT_SPEED = "current-speed";
     private static final String AVERAGE_SPEED = "average-speed";
-    private static final String METERS_TRAVLED = "meters-traveled";
-    private static final String SECONDS_TRAVLED = "seconds-traveled";
+    private static final String METERS_TRAVELED = "meters-traveled";
+    private static final String SECONDS_TRAVELED = "seconds-traveled";
     private static final String MAX_SPEED = "max-speed";
     private final SharedPreferences sharedPreferences;
     private Context context;
@@ -37,8 +34,8 @@ public class SharedPreferenceHandler {
     public void reset(){
         this.setSpeed(CURRENT_SPEED, 0);
         this.setSpeed(AVERAGE_SPEED, 0);
-        this.setSpeed(SECONDS_TRAVLED, 0);
-        this.setSpeed(METERS_TRAVLED, 0);
+        this.setSpeed(SECONDS_TRAVELED, 0);
+        this.setSpeed(METERS_TRAVELED, 0);
         this.setSpeed(MAX_SPEED, 0);
     }
 
@@ -93,12 +90,12 @@ public class SharedPreferenceHandler {
 
 
     public float getAverageSpeed() {
-        return getSpeed(SECONDS_TRAVLED) < 1 ? 0 : (getSpeed(METERS_TRAVLED) / sharedPreferences.getFloat(SECONDS_TRAVLED, 1));
+        return getSpeed(SECONDS_TRAVELED) < 1 ? 0 : (getSpeed(METERS_TRAVELED) / sharedPreferences.getFloat(SECONDS_TRAVELED, 1));
     }
 
     private void setAverage(Measurement measurement) {
-        this.setSpeed(METERS_TRAVLED, (float) (this.getSpeed(METERS_TRAVLED) + measurement.getDistance()));
-        this.setSpeed(SECONDS_TRAVLED, (float) (this.getSpeed(SECONDS_TRAVLED) + measurement.getTime()));
+        this.setSpeed(METERS_TRAVELED, (float) (this.getSpeed(METERS_TRAVELED) + measurement.getDistance()));
+        this.setSpeed(SECONDS_TRAVELED, (float) (this.getSpeed(SECONDS_TRAVELED) + measurement.getTime()));
     }
 
     private float getSpeed(String type){
@@ -110,6 +107,9 @@ public class SharedPreferenceHandler {
     }
 
     private void setMaxSpeed(float currentSpeed) {
+        if((this.getMaxSpeed() != 0 && currentSpeed > 2 && (currentSpeed / this.getMaxSpeed() > 20))) {
+            currentSpeed = this.getMaxSpeed();
+        }
         if(currentSpeed > this.getMaxSpeed()) {
             this.setSpeed(MAX_SPEED, currentSpeed);
         }
@@ -119,7 +119,6 @@ public class SharedPreferenceHandler {
         // We need an Editor object to make preference changes.
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putFloat(type, value);
-
         editor.apply();
     }
 }
